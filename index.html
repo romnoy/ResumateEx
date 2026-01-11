@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumate - קורות חיים מותאמים אישית באמצעות AI</title>
+    
+    <!-- Bootstrap 5 RTL -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Heebo', sans-serif;
+        }
+
+        /* Custom Gradient Colors */
+        .gradient-bg {
+            background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Navigation */
+        .navbar-brand {
+            font-size: 1.75rem;
+            font-weight: 700;
+        }
+
+        .nav-link {
+            font-weight: 500;
+            font-size: 1.05rem;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            position: relative;
+            overflow: hidden;
+            padding: 5rem 0;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -10%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero-section::after {
+            content: '';
+            position: absolute;
+            bottom: -30%;
+            right: -5%;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.08) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero-badge {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 50px;
+            padding: 0.5rem 1.5rem;
+            display: inline-block;
+        }
+
+        .btn-gradient {
+            background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
+            border: none;
+            color: white;
+            font-weight: 600;
+            padding: 0.75rem 1.5rem;
+            border-radius: 12px;
+            transition: all 0.3s;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+        }
+
+        .btn-gradient:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+            color: white;
+        }
+
+        .btn-white {
+            background: white;
+            color: #2563EB;
+            font-weight: 700;
+            padding: 1rem 2.5rem;
+            border-radius: 14px;
+            transition: all 0.3s;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .btn-white:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+            color: #2563EB;
+        }
+
+        .btn-outline-white {
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            font-weight: 600;
+            padding: 1rem 2.5rem;
+            border-radius: 14px;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s;
+        }
+
+        .btn-outline-white:hover {
+            background: rgba(255, 255, 255, 0.25);
+            border-color: rgba(255, 255, 255, 0.5);
+            color: white;
+        }
+
+        /* Cards */
+        .feature-card {
+            border-radius: 20px;
+            border: 2px solid #E5E7EB;
+            transition: all 0.3s;
+            height: 100%;
+        }
+
+        .feature-card:hover {
+            border-color: #2563EB;
+            transform: translateY(-8px);
+            box-shadow: 0 12px 40px rgba(37, 99, 235, 0.15);
+        }
+
+        .feature-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .pain-card {
+            background: #F9FAFB;
+            border: 2px solid #E5E7EB;
+            border-radius: 20px;
+            padding: 2rem;
+            transition: all 0.3s;
+            height: 100%;
+        }
+
+        .pain-card:hover {
+            border-color: #2563EB;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(37, 99, 235, 0.15);
+        }
+
+        .pain-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Steps */
+        .step-number {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 0 auto 1.5rem;
+            box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
+            color: white;
+        }
+
+        /* Section Badge */
+        .section-badge {
+            background: linear-gradient(135deg, #EEF2FF 0%, #F3E8FF 100%);
+            color: #2563EB;
+            padding: 0.5rem 1.25rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            display: inline-block;
+        }
+
+        /* Footer */
+        footer {
+            background: #1F2937;
+            color: #9CA3AF;
+        }
+
+        footer h5 {
+            color: white;
+        }
+
+        footer a {
+            color: #9CA3AF;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+
+        /* Animations */
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand gradient-text" href="index.html">Resumate</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">אודות</a>
+                    </li>
+                </ul>
+                <a href="personality_assessment.html" class="btn btn-gradient">התחל עכשיו</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section gradient-bg text-white">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-10 fade-in-up" style="position: relative; z-index: 1;">
+                    <div class="hero-badge mb-4">
+                        🚀 מערכת חכמה לבניית קורות חיים מותאמים
+                    </div>
+                    <h1 class="display-3 fw-bold mb-4">תמיד חלמת לכתוב<br>קורות חיים מושלמים?</h1>
+                    <p class="lead fs-4 mb-5" style="max-width: 800px; margin-left: auto; margin-right: auto;">
+                        Resumate עוזר לך ליצור קורות חיים מקצועיים ומותאמים אישית באמצעות בינה מלאכותית,
+                        תוך מספר דקות בלבד
+                    </p>
+                    <div class="d-flex gap-3 justify-content-center flex-wrap">
+                        <a href="personality_assessment.html" class="btn btn-white btn-lg">צור קורות חיים מותאמים</a>
+                        <a href="#how-it-works" class="btn btn-outline-white btn-lg">איך זה עובד?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="py-5 bg-white">
+        <div class="container py-4">
+            <div class="text-center mb-5 fade-in-up">
+                <span class="section-badge mb-3">😰 מכיר את התחושה?</span>
+                <h2 class="display-5 fw-bold mb-3">האתגרים שמחפשי עבודה מתמודדים איתם</h2>
+                <p class="lead text-muted" style="max-width: 700px; margin: 0 auto;">
+                    רבים מוצאים את עצמם מתקשים להפוך את הניסיון והכישורים שלהם לקורות חיים איכותיים
+                </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="pain-card text-center fade-in-up">
+                        <div class="pain-icon">📝</div>
+                        <h5 class="fw-bold mb-3">קושי בניסוח</h5>
+                        <p class="text-muted">
+                            לא יודע איך לתרגם ניסיון אישי ומקצועי לשפה עסקית מקצועית שמעניינת מגייסים
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="pain-card text-center fade-in-up">
+                        <div class="pain-icon">🎯</div>
+                        <h5 class="fw-bold mb-3">חוסר התאמה למשרה</h5>
+                        <p class="text-muted">
+                            קורות חיים גנריים שלא מותאמים לדרישות הספציפיות של כל משרה ומעסיק
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="pain-card text-center fade-in-up">
+                        <div class="pain-icon">⏰</div>
+                        <h5 class="fw-bold mb-3">בזבוז זמן</h5>
+                        <p class="text-muted">
+                            שעות של כתיבה, עריכה ושינויים שלא תמיד מובילים לתוצאה המקצועית הרצויה
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="pain-card text-center fade-in-up">
+                        <div class="pain-icon">❌</div>
+                        <h5 class="fw-bold mb-3">דחיות חוזרות</h5>
+                        <p class="text-muted">
+                            קורות חיים שלא מצליחים לעבור את שלב הסינון הראשוני ולהוביל לראיונות
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="py-5 bg-light">
+        <div class="container py-4">
+            <div class="text-center mb-5 fade-in-up">
+                <span class="section-badge mb-3">✨ הפתרון שלנו</span>
+                <h2 class="display-5 fw-bold mb-3">למה Resumate שונה?</h2>
+                <p class="lead text-muted" style="max-width: 700px; margin: 0 auto;">
+                    מערכת חכמה שמבינה אותך ויוצרת קורות חיים שמתאימים בדיוק לצרכים שלך
+                </p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card feature-card border-0 shadow-sm h-100">
+                        <div class="card-body p-4">
+                            <div class="feature-icon gradient-bg text-white">🧠</div>
+                            <h5 class="card-title fw-bold mb-3">מבחן אישיות חכם</h5>
+                            <p class="card-text text-muted">
+                                זיהוי טיפוס האישיות המקצועי שלך (Executing, Influencing, Relationship Building, Strategic Thinking)
+                                כדי להתאים את קורות החיים בצורה מדויקת
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card feature-card border-0 shadow-sm h-100">
+                        <div class="card-body p-4">
+                            <div class="feature-icon gradient-bg text-white">✍️</div>
+                            <h5 class="card-title fw-bold mb-3">ניסוח מקצועי אוטומטי</h5>
+                            <p class="card-text text-muted">
+                                בינה מלאכותית מתקדמת שמתרגמת את הניסיון האישי שלך לשפה עסקית מקצועית
+                                ומותאמת לשוק העבודה
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card feature-card border-0 shadow-sm h-100">
+                        <div class="card-body p-4">
+                            <div class="feature-icon gradient-bg text-white">🎯</div>
+                            <h5 class="card-title fw-bold mb-3">התאמה אישית למשרה</h5>
+                            <p class="card-text text-muted">
+                                ניתוח דרישות המשרה והתאמת קורות החיים בצורה ספציפית לכל תפקיד,
+                                תוך הדגשת החוזקות הרלוונטיות שלך
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card feature-card border-0 shadow-sm h-100">
+                        <div class="card-body p-4">
+                            <div class="feature-icon gradient-bg text-white">📊</div>
+                            <h5 class="card-title fw-bold mb-3">ניתוח והמלצות</h5>
+                            <p class="card-text text-muted">
+                                קבלת משוב מפורט על מידת ההתאמה שלך למשרה, כולל המלצות ממוקדות
+                                לשיפור הסיכויים שלך
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card feature-card border-0 shadow-sm h-100">
+                        <div class="card-body p-4">
+                            <div class="feature-icon gradient-bg text-white">📧</div>
+                            <h5 class="card-title fw-bold mb-3">מייל פנייה מושלם</h5>
+                            <p class="card-text text-muted">
+                                יצירה אוטומטית של מייל פנייה למעסיק, מקצועי ומושך,
+                                שמבוסס על החוזקות שזוהו במבחן
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card feature-card border-0 shadow-sm h-100">
+                        <div class="card-body p-4">
+                            <div class="feature-icon gradient-bg text-white">⚡</div>
+                            <h5 class="card-title fw-bold mb-3">מהיר וקל לשימוש</h5>
+                            <p class="card-text text-muted">
+                                תהליך פשוט ומהיר שלוקח מספר דקות בלבד,
+                                ללא צורך בידע טכני או כישורי כתיבה מתקדמים
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works - 3 STEPS -->
+    <section class="py-5 bg-white" id="how-it-works">
+        <div class="container py-4">
+            <div class="text-center mb-5 fade-in-up">
+                <span class="section-badge mb-3">🚀 תהליך פשוט</span>
+                <h2 class="display-5 fw-bold mb-3">איך זה עובד?</h2>
+                <p class="lead text-muted" style="max-width: 700px; margin: 0 auto;">
+                    3 שלבים פשוטים לקורות חיים מקצועיים ומותאמים אישית
+                </p>
+            </div>
+            <div class="row g-5">
+                <div class="col-md-4">
+                    <div class="text-center fade-in-up">
+                        <div class="step-number gradient-bg">1</div>
+                        <h4 class="fw-bold mb-3">מבחן אישיות</h4>
+                        <p class="text-muted">
+                            עונה על 4 שאלות קצרות שיעזרו לנו להבין את טיפוס האישיות המקצועי שלך
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center fade-in-up">
+                        <div class="step-number gradient-bg">2</div>
+                        <h4 class="fw-bold mb-3">שיתוף פרטים</h4>
+                        <p class="text-muted">
+                            מספר לנו על הניסיון, הכישורים והתחום המקצועי בו אתה מעוניין
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center fade-in-up">
+                        <div class="step-number gradient-bg">3</div>
+                        <h4 class="fw-bold mb-3">יצירה וקבלת קו"ח</h4>
+                        <p class="text-muted">
+                            הבינה המלאכותית שלנו יוצרת עבורך קורות חיים מקצועיים ומותאמים
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 gradient-bg text-white">
+        <div class="container py-4">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8 fade-in-up">
+                    <h2 class="display-5 fw-bold mb-4">מוכנים להתחיל?</h2>
+                    <p class="lead fs-4 mb-4">צרו את קורות החיים המושלמים שלכם תוך מספר דקות</p>
+                    <a href="personality_assessment.html" class="btn btn-white btn-lg">התחילו כאן בחינם</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<footer class="py-4" style="background: #1F2937;">
+    <div class="container">
+        <div class="text-center" style="color: #9CA3AF;">
+            <p class="mb-1">&copy; 2025 Resumate. כל הזכויות שמורות.</p>
+            <p class="small">פותח על ידי: מאי לניאדו | נגה כהן | נוי רומאני</p>
+        </div>
+    </div>
+</footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

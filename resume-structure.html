@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>המבנה הנכון של קורות חיים מצוינים - Resumate</title>
+    
+    <!-- Bootstrap 5 RTL -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Heebo', sans-serif;
+            background: #F9FAFB;
+            min-height: 100vh;
+            padding: 2rem 0;
+        }
+
+        .gradient-bg {
+            background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .navbar-brand {
+            font-size: 1.75rem;
+            font-weight: 700;
+        }
+
+        .btn-gradient {
+            background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
+            border: none;
+            color: white;
+            font-weight: 600;
+            padding: 0.75rem 1.5rem;
+            border-radius: 12px;
+            transition: all 0.3s;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+        }
+
+        .btn-gradient:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+            color: white;
+        }
+
+        /* Header Card */
+        .header-card {
+            background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
+            border-radius: 20px;
+            padding: 2rem;
+            text-align: center;
+            color: white;
+            box-shadow: 0 10px 40px rgba(37, 99, 235, 0.3);
+            margin-bottom: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .header-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header-subtitle {
+            font-size: 1rem;
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Main Content Card */
+        .content-card {
+            background: white;
+            border-radius: 20px;
+            padding: 2.5rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+            border: 1px solid #E5E7EB;
+            margin-bottom: 2rem;
+        }
+
+        /* Principles Section */
+        .principles-box {
+            background: #EEF2FF;
+            border-right: 4px solid #2563EB;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .principles-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #1F2937;
+            margin-bottom: 1rem;
+        }
+
+        .principle-item {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+            align-items: start;
+        }
+
+        .principle-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .check-icon {
+            color: #10B981;
+            font-size: 1.25rem;
+            flex-shrink: 0;
+            margin-top: 0.125rem;
+        }
+
+        .principle-text {
+            color: #374151;
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        /* Structure Section */
+        .structure-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1F2937;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .section-item {
+            background: #F9FAFB;
+            border: 1px solid #E5E7EB;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .section-number {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
+            color: white;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.125rem;
+            flex-shrink: 0;
+        }
+
+        .section-title {
+            font-weight: 700;
+            font-size: 1.125rem;
+            color: #1F2937;
+        }
+
+        .section-content {
+            color: #6B7280;
+            line-height: 1.7;
+            font-size: 0.95rem;
+        }
+
+        .section-content ul {
+            list-style: none;
+            padding: 0;
+            margin: 0.5rem 0 0 0;
+        }
+
+        .section-content li {
+            padding-right: 1.5rem;
+            position: relative;
+            margin-bottom: 0.5rem;
+        }
+
+        .section-content li::before {
+            content: '•';
+            position: absolute;
+            right: 0;
+            color: #2563EB;
+            font-weight: 700;
+        }
+
+        /* Avoid Section */
+        .avoid-box {
+            background: #FEF2F2;
+            border: 2px solid #EF4444;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .avoid-title {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #DC2626;
+            margin-bottom: 1rem;
+        }
+
+        .avoid-icon {
+            font-size: 1.5rem;
+        }
+
+        .avoid-item {
+            display: flex;
+            gap: 0.1rem;
+            margin-bottom: 0.1rem;
+            align-items: start;
+        }
+
+        .avoid-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .avoid-bullet {
+            color: #DC2626;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .avoid-text {
+            color: #991B1B;
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        /* CTA Button */
+        .cta-button {
+            width: 100%;
+            background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
+            color: white;
+            border: none;
+            padding: 1.25rem 2rem;
+            font-size: 1.125rem;
+            font-weight: 700;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 35px rgba(37, 99, 235, 0.4);
+        }
+
+        .arrow-icon {
+            font-size: 1.5rem;
+            transition: transform 0.3s;
+        }
+
+        .cta-button:hover .arrow-icon {
+            transform: translateX(-5px);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem 0;
+            }
+
+            .content-card {
+                padding: 1.5rem;
+            }
+
+            .header-card {
+                padding: 1.5rem;
+            }
+
+            .header-title {
+                font-size: 1.5rem;
+            }
+
+            .section-item {
+                padding: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand gradient-text" href="index.html">Resumate</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">אודות</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" style="max-width: 900px; padding-top: 2rem;">
+        <!-- Header Card -->
+        <div class="header-card">
+            <div class="header-icon">📄</div>
+            <h1 class="header-title">המבנה הנכון של קורות חיים מצוינים</h1>
+            <p class="header-subtitle">עקרונות חשובים שיעזרו לך להתבלט</p>
+        </div>
+
+        <!-- Main Content Card -->
+        <div class="content-card">
+            <!-- Principles Section -->
+            <div class="principles-box">
+                <h2 class="principles-title">📌 עקרונות יסוד לכתיבת קורות חיים</h2>
+                
+                <div class="principle-item">
+                    <span class="check-icon">✓</span>
+                    <p class="principle-text"><strong>התאמה למשרה:</strong> קורות חיים צריכים להיות ממוקדים ומותאמים למשרה הספציפית</p>
+                </div>
+
+                <div class="principle-item">
+                    <span class="check-icon">✓</span>
+                    <p class="principle-text"><strong>הישגים מדידים:</strong> השתמש במספרים ואחוזים (למשל: "שיפרתי את היעילות ב-40%")</p>
+                </div>
+
+                <div class="principle-item">
+                    <span class="check-icon">✓</span>
+                    <p class="principle-text"><strong>שפה פעילה:</strong> כתוב בפעלים חזקים ופעילים (ניהלתי, הובלתי, פיתחתי)</p>
+                </div>
+
+                <div class="principle-item">
+                    <span class="check-icon">✓</span>
+                    <p class="principle-text"><strong>קצר וממוקד:</strong> עמוד אחד עד שניים מקסימום - מגייסים קוראים מהר</p>
+                </div>
+
+                <div class="principle-item">
+                    <span class="check-icon">✓</span>
+                    <p class="principle-text"><strong>ללא טעויות:</strong> בדוק כל פסיק ואות - טעויות כתיב פוגעות במהימנות</p>
+                </div>
+            </div>
+
+            <!-- Structure Title -->
+            <h2 class="structure-title">המבנה המומלץ</h2>
+
+            <!-- Section 1: Personal Details -->
+            <div class="section-item">
+                <div class="section-header">
+                    <div class="section-number">1</div>
+                    <h3 class="section-title">פרטים אישיים</h3>
+                </div>
+                <div class="section-content">
+                    שם מלא, טלפון, אימייל (אפשר לוותר על תאריך לידה, מצב משפחתי - אם לא רלוונטי ישירות לתפקיד)
+                </div>
+            </div>
+
+            <!-- Section 2: Professional Summary -->
+            <div class="section-item">
+                <div class="section-header">
+                    <div class="section-number">2</div>
+                    <h3 class="section-title">תקציר מקצועי (אופציונלי אך מומלץ)</h3>
+                </div>
+                <div class="section-content">
+                    2-3 משפטים תמציתיים על מי אתה, מה המומחיות שלך, ומה את/ה מחפש/ת
+                </div>
+            </div>
+
+            <!-- Section 3: Work Experience -->
+            <div class="section-item">
+                <div class="section-header">
+                    <div class="section-number">3</div>
+                    <h3 class="section-title">ניסיון מקצועי</h3>
+                </div>
+                <div class="section-content">
+                    (כל תפקיד בתבנית: תאריכים, תפקיד, שם החברה)
+                    <ul>
+                        <li>פתח את התפקיד בתיאור</li>
+                        <li>מה עשית? (פעולות)</li>
+                        <li>איך עשית? (שיטות וכלים)</li>
+                        <li>מה הייתה התוצאה? (השפעה מדידה)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Section 4: Skills -->
+            <div class="section-item">
+                <div class="section-header">
+                    <div class="section-number">4</div>
+                    <h3 class="section-title">כישורים ומיומנויות</h3>
+                </div>
+                <div class="section-content">
+                    חלק לקטגוריות:
+                    <ul>
+                        <li><strong>כישורים טכניים:</strong> תוכנות, כלים, שפות תכנות</li>
+                        <li><strong>כישורים רכים:</strong> ניהול, תקשורת, פתרון בעיות</li>
+                        <li><strong>שפות:</strong> רמת השליטה בכל שפה</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Section 5: Education -->
+            <div class="section-item">
+                <div class="section-header">
+                    <div class="section-number">5</div>
+                    <h3 class="section-title">השכלה</h3>
+                </div>
+                <div class="section-content">
+                    תואר/תעודה, שנה, מוסד (ציונים רק אם מעל 85)
+                    <br><small style="color: #9CA3AF;">[טיפ: אם אין תואר אקדמי - כתוב קורסים מקצועיים]</small>
+                </div>
+            </div>
+
+            <!-- Section 6: Optional -->
+            <div class="section-item">
+                <div class="section-header">
+                    <div class="section-number">6</div>
+                    <h3 class="section-title">מידע נוסף</h3>
+                </div>
+                <div class="section-content">
+                   כל דבר שיכול להיות רלוונטי למשרה
+                </div>
+            </div>
+
+            <!-- Avoid Section -->
+            <div class="avoid-box">
+                <div class="avoid-title">
+                    <span class="avoid-icon">❌</span>
+                    <span>דברים שחובה להימנע מהם</span>
+                </div>
+
+                <div class="avoid-item">
+                    <span class="avoid-bullet">•</span>
+                    <p class="avoid-text">תמונה אישית</p>
+                </div>
+
+                <div class="avoid-item">
+                    <span class="avoid-bullet">•</span>
+                    <p class="avoid-text">מידע על דת או פרטים אישיים</p>
+                </div>
+
+                <div class="avoid-item">
+                    <span class="avoid-bullet">•</span>
+                    <p class="avoid-text">תיאורים כלליים כמו "עובד קשה" ללא דוגמאות</p>
+                </div>
+
+                <div class="avoid-item">
+                    <span class="avoid-bullet">•</span>
+                    <p class="avoid-text">פסקאות ארוכות</p>
+                </div>
+
+                <div class="avoid-item">
+                    <span class="avoid-bullet">•</span>
+                    <p class="avoid-text">פונטים מיוחדים או צבעוניים מדי</p>
+                </div>
+
+                <div class="avoid-item">
+                    <span class="avoid-bullet">•</span>
+                    <p class="avoid-text">טעויות כתיב או דקדוק</p>
+                </div>
+            </div>
+
+            <!-- CTA Button -->
+            <button class="cta-button" onclick="goToChat()">
+                <span>הבנתי, בוא נתחיל ליצור את קורות החיים שלי!</span>
+                <span class="arrow-icon">←</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-4" style="background: #1F2937;">
+        <div class="container">
+            <div class="text-center" style="color: #9CA3AF;">
+                <p class="mb-1">&copy; 2025 Resumate. כל הזכויות שמורות.</p>
+                <p class="small">פותח על ידי: מאי לניאדו | נגה כהן | נוי רומאני</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        function goToChat() {
+            window.location.href = 'chat.html';
+        }
+    </script>
+</body>
+</html>

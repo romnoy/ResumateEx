@@ -1,0 +1,2702 @@
+[
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 19,
+    "question6": 44
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2,
+    "question5": 17,
+    "question6": 49
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 16,
+    "question6": 43
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 4,
+    "question4": 3,
+    "question5": 50,
+    "question6": 26
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2,
+    "question5": 19,
+    "question6": 48
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 18,
+    "question6": 42
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 4,
+    "question4": 4,
+    "question5": 58,
+    "question6": 27
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 2,
+    "question4": 6,
+    "question5": 80,
+    "question6": 13
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 5,
+    "question5": 84,
+    "question6": 18
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 18,
+    "question6": 42
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 57,
+    "question6": 30
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 24,
+    "question6": 48
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 19,
+    "question6": 43
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 21,
+    "question6": 48
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1,
+    "question5": 21,
+    "question6": 49
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1,
+    "question5": 20,
+    "question6": 47
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 22,
+    "question6": 43
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 4,
+    "question4": 4,
+    "question5": 61,
+    "question6": 28
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 23,
+    "question6": 42
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 4,
+    "question4": 4,
+    "question5": 57,
+    "question6": 28
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 23,
+    "question6": 44
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 4,
+    "question4": 4,
+    "question5": 52,
+    "question6": 28
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 6,
+    "question5": 84,
+    "question6": 20
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 7,
+    "question5": 91,
+    "question6": 12
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 7,
+    "question5": 88,
+    "question6": 19
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1,
+    "question5": 22,
+    "question6": 43
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1,
+    "question5": 18,
+    "question6": 43
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 4,
+    "question4": 4,
+    "question5": 55,
+    "question6": 28
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 6,
+    "question5": 81,
+    "question6": 13
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 61,
+    "question6": 29
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 51,
+    "question6": 28
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 7,
+    "question5": 82,
+    "question6": 20
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 52,
+    "question6": 28
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 59,
+    "question6": 31
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 58,
+    "question6": 28
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 4,
+    "question4": 3,
+    "question5": 51,
+    "question6": 28
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 61,
+    "question6": 27
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 2,
+    "question4": 6,
+    "question5": 80,
+    "question6": 9
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 15,
+    "question6": 49
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 6,
+    "question5": 93,
+    "question6": 14
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 20,
+    "question6": 45
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 4,
+    "question4": 4,
+    "question5": 56,
+    "question6": 28
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 4,
+    "question4": 3,
+    "question5": 58,
+    "question6": 30
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2,
+    "question5": 23,
+    "question6": 43
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 6,
+    "question5": 87,
+    "question6": 16
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1,
+    "question5": 20,
+    "question6": 48
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 19,
+    "question6": 47
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1,
+    "question5": 15,
+    "question6": 48
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 55,
+    "question6": 27
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 20,
+    "question6": 46
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 5,
+    "question5": 85,
+    "question6": 20
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 4,
+    "question4": 3,
+    "question5": 52,
+    "question6": 25
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 61,
+    "question6": 27
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2,
+    "question5": 19,
+    "question6": 46
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 7,
+    "question5": 87,
+    "question6": 17
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 4,
+    "question4": 4,
+    "question5": 52,
+    "question6": 29
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1,
+    "question5": 18,
+    "question6": 42
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 56,
+    "question6": 27
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 7,
+    "question5": 93,
+    "question6": 11
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 6,
+    "question5": 92,
+    "question6": 8
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 19,
+    "question6": 42
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 2,
+    "question4": 6,
+    "question5": 86,
+    "question6": 15
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 20,
+    "question6": 47
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 53,
+    "question6": 28
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 54,
+    "question6": 30
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2,
+    "question5": 23,
+    "question6": 46
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 16,
+    "question6": 45
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 5,
+    "question5": 84,
+    "question6": 16
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 52,
+    "question6": 25
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 4,
+    "question4": 4,
+    "question5": 56,
+    "question6": 28
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 6,
+    "question5": 80,
+    "question6": 15
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 57,
+    "question6": 30
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 54,
+    "question6": 27
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 19,
+    "question6": 43
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 4,
+    "question4": 3,
+    "question5": 50,
+    "question6": 26
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 4,
+    "question4": 4,
+    "question5": 58,
+    "question6": 31
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 60,
+    "question6": 25
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 5,
+    "question5": 80,
+    "question6": 19
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 16,
+    "question6": 47
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 7,
+    "question5": 87,
+    "question6": 12
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 23,
+    "question6": 42
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 5,
+    "question5": 82,
+    "question6": 8
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 22,
+    "question6": 47
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 6,
+    "question5": 86,
+    "question6": 10
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 18,
+    "question6": 49
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1,
+    "question5": 23,
+    "question6": 46
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 2,
+    "question4": 7,
+    "question5": 84,
+    "question6": 15
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 15,
+    "question6": 43
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 6,
+    "question5": 81,
+    "question6": 18
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 17,
+    "question6": 43
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 2,
+    "question4": 7,
+    "question5": 85,
+    "question6": 17
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 60,
+    "question6": 28
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 4,
+    "question4": 4,
+    "question5": 59,
+    "question6": 31
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 7,
+    "question5": 92,
+    "question6": 18
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 5,
+    "question5": 89,
+    "question6": 8
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 5,
+    "question5": 92,
+    "question6": 17
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 22,
+    "question6": 48
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 55,
+    "question6": 31
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 21,
+    "question6": 49
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 50,
+    "question6": 30
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 19,
+    "question6": 49
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 4,
+    "question4": 3,
+    "question5": 56,
+    "question6": 27
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 6,
+    "question5": 84,
+    "question6": 10
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 16,
+    "question6": 49
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 6,
+    "question5": 87,
+    "question6": 8
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 4,
+    "question4": 3,
+    "question5": 55,
+    "question6": 30
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 60,
+    "question6": 28
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2,
+    "question5": 17,
+    "question6": 44
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 50,
+    "question6": 26
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1,
+    "question5": 24,
+    "question6": 47
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 56,
+    "question6": 29
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 6,
+    "question5": 90,
+    "question6": 8
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 56,
+    "question6": 30
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 18,
+    "question6": 46
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 6,
+    "question5": 92,
+    "question6": 9
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 15,
+    "question6": 45
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1,
+    "question5": 17,
+    "question6": 48
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 5,
+    "question5": 84,
+    "question6": 10
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 2,
+    "question4": 5,
+    "question5": 82,
+    "question6": 20
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 16,
+    "question6": 46
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 23,
+    "question6": 45
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 20,
+    "question6": 47
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 50,
+    "question6": 28
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1,
+    "question5": 19,
+    "question6": 46
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 6,
+    "question5": 89,
+    "question6": 18
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 16,
+    "question6": 48
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 2,
+    "question4": 5,
+    "question5": 92,
+    "question6": 10
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2,
+    "question5": 24,
+    "question6": 47
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 7,
+    "question5": 90,
+    "question6": 18
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1,
+    "question5": 24,
+    "question6": 48
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 4,
+    "question4": 3,
+    "question5": 59,
+    "question6": 25
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 20,
+    "question6": 49
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 58,
+    "question6": 26
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 51,
+    "question6": 29
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 5,
+    "question5": 80,
+    "question6": 18
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2,
+    "question5": 23,
+    "question6": 48
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 5,
+    "question5": 84,
+    "question6": 16
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 2,
+    "question4": 6,
+    "question5": 80,
+    "question6": 9
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 6,
+    "question5": 89,
+    "question6": 10
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 4,
+    "question4": 4,
+    "question5": 61,
+    "question6": 27
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 7,
+    "question5": 89,
+    "question6": 13
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 58,
+    "question6": 29
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 19,
+    "question6": 43
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 4,
+    "question4": 3,
+    "question5": 57,
+    "question6": 26
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 23,
+    "question6": 47
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 4,
+    "question4": 4,
+    "question5": 54,
+    "question6": 30
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 5,
+    "question5": 88,
+    "question6": 12
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 53,
+    "question6": 31
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 4,
+    "question4": 3,
+    "question5": 59,
+    "question6": 26
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 4,
+    "question4": 3,
+    "question5": 52,
+    "question6": 27
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 22,
+    "question6": 48
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 4,
+    "question4": 4,
+    "question5": 55,
+    "question6": 30
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 5,
+    "question5": 89,
+    "question6": 19
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 23,
+    "question6": 45
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 5,
+    "question5": 85,
+    "question6": 15
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 2,
+    "question4": 6,
+    "question5": 80,
+    "question6": 11
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 6,
+    "question5": 89,
+    "question6": 15
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 19,
+    "question6": 45
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 4,
+    "question4": 4,
+    "question5": 57,
+    "question6": 28
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 2,
+    "question4": 7,
+    "question5": 93,
+    "question6": 12
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 19,
+    "question6": 43
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 18,
+    "question6": 42
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 4,
+    "question4": 3,
+    "question5": 59,
+    "question6": 25
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 52,
+    "question6": 26
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 7,
+    "question5": 82,
+    "question6": 15
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 7,
+    "question5": 87,
+    "question6": 12
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 58,
+    "question6": 29
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 52,
+    "question6": 25
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 6,
+    "question5": 93,
+    "question6": 14
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 53,
+    "question6": 27
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 5,
+    "question5": 88,
+    "question6": 20
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 2,
+    "question4": 7,
+    "question5": 82,
+    "question6": 14
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 4,
+    "question4": 4,
+    "question5": 55,
+    "question6": 31
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 53,
+    "question6": 31
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 55,
+    "question6": 25
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 23,
+    "question6": 45
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 19,
+    "question6": 48
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 2,
+    "question4": 5,
+    "question5": 87,
+    "question6": 20
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 20,
+    "question6": 42
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 16,
+    "question6": 49
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 7,
+    "question5": 81,
+    "question6": 12
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 7,
+    "question5": 81,
+    "question6": 13
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 5,
+    "question5": 87,
+    "question6": 13
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 21,
+    "question6": 44
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 2,
+    "question4": 5,
+    "question5": 93,
+    "question6": 16
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 52,
+    "question6": 25
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1,
+    "question5": 23,
+    "question6": 48
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 60,
+    "question6": 29
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 55,
+    "question6": 25
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 21,
+    "question6": 45
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 59,
+    "question6": 30
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 16,
+    "question6": 43
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 6,
+    "question5": 85,
+    "question6": 13
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 5,
+    "question5": 88,
+    "question6": 8
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 6,
+    "question5": 91,
+    "question6": 19
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 5,
+    "question5": 80,
+    "question6": 10
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 7,
+    "question5": 90,
+    "question6": 15
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 4,
+    "question4": 3,
+    "question5": 56,
+    "question6": 27
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 54,
+    "question6": 31
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 7,
+    "question5": 82,
+    "question6": 18
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 6,
+    "question5": 86,
+    "question6": 11
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 56,
+    "question6": 31
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 6,
+    "question5": 90,
+    "question6": 19
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 58,
+    "question6": 25
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 53,
+    "question6": 28
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 59,
+    "question6": 28
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1,
+    "question5": 24,
+    "question6": 49
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 2,
+    "question4": 6,
+    "question5": 93,
+    "question6": 17
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 18,
+    "question6": 47
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 50,
+    "question6": 25
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 4,
+    "question4": 4,
+    "question5": 60,
+    "question6": 25
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 24,
+    "question6": 48
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 56,
+    "question6": 25
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 58,
+    "question6": 30
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 5,
+    "question5": 92,
+    "question6": 9
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 6,
+    "question5": 92,
+    "question6": 11
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2,
+    "question5": 21,
+    "question6": 46
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 15,
+    "question6": 45
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 57,
+    "question6": 30
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 6,
+    "question5": 87,
+    "question6": 13
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 5,
+    "question5": 81,
+    "question6": 16
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1,
+    "question5": 22,
+    "question6": 42
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 60,
+    "question6": 29
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 52,
+    "question6": 27
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 5,
+    "question5": 81,
+    "question6": 18
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 4,
+    "question4": 4,
+    "question5": 53,
+    "question6": 26
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 18,
+    "question6": 49
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 2,
+    "question4": 6,
+    "question5": 80,
+    "question6": 16
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 53,
+    "question6": 26
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 7,
+    "question5": 84,
+    "question6": 17
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 5,
+    "question5": 83,
+    "question6": 15
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 16,
+    "question6": 43
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 50,
+    "question6": 27
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2,
+    "question5": 19,
+    "question6": 47
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 54,
+    "question6": 30
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2,
+    "question5": 16,
+    "question6": 42
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1,
+    "question5": 24,
+    "question6": 47
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 53,
+    "question6": 27
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 22,
+    "question6": 49
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 7,
+    "question5": 87,
+    "question6": 16
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 55,
+    "question6": 26
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 6,
+    "question5": 87,
+    "question6": 12
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2,
+    "question5": 24,
+    "question6": 44
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 60,
+    "question6": 30
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 7,
+    "question5": 93,
+    "question6": 16
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 51,
+    "question6": 29
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 5,
+    "question5": 81,
+    "question6": 15
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 5,
+    "question5": 90,
+    "question6": 12
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 7,
+    "question5": 93,
+    "question6": 10
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 6,
+    "question5": 86,
+    "question6": 11
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 4,
+    "question4": 3,
+    "question5": 58,
+    "question6": 28
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 2,
+    "question4": 6,
+    "question5": 85,
+    "question6": 13
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 60,
+    "question6": 25
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 21,
+    "question6": 43
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 4,
+    "question4": 4,
+    "question5": 61,
+    "question6": 26
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 5,
+    "question5": 83,
+    "question6": 9
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 7,
+    "question5": 93,
+    "question6": 10
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 4,
+    "question4": 3,
+    "question5": 59,
+    "question6": 30
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 7,
+    "question5": 93,
+    "question6": 9
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 2,
+    "question4": 5,
+    "question5": 85,
+    "question6": 17
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 4,
+    "question5": 56,
+    "question6": 25
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 5,
+    "question5": 81,
+    "question6": 20
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1,
+    "question5": 24,
+    "question6": 42
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 2,
+    "question4": 6,
+    "question5": 89,
+    "question6": 20
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 52,
+    "question6": 28
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 5,
+    "question5": 93,
+    "question6": 11
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 7,
+    "question5": 93,
+    "question6": 13
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 7,
+    "question5": 87,
+    "question6": 9
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 4,
+    "question4": 3,
+    "question5": 55,
+    "question6": 27
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 4,
+    "question4": 4,
+    "question5": 51,
+    "question6": 27
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 5,
+    "question5": 91,
+    "question6": 14
+  },
+  {
+    "learnerType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 60,
+    "question6": 25
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1,
+    "question5": 20,
+    "question6": 42
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 17,
+    "question6": 49
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 19,
+    "question6": 44
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 7,
+    "question5": 92,
+    "question6": 13
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 4,
+    "question4": 3,
+    "question5": 60,
+    "question6": 31
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2,
+    "question5": 19,
+    "question6": 49
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 16,
+    "question6": 43
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 19,
+    "question6": 49
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 17,
+    "question6": 49
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1,
+    "question5": 20,
+    "question6": 49
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2,
+    "question5": 21,
+    "question6": 43
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 2,
+    "question4": 5,
+    "question5": 86,
+    "question6": 19
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 5,
+    "question5": 80,
+    "question6": 15
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3,
+    "question5": 54,
+    "question6": 28
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2,
+    "question5": 21,
+    "question6": 45
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2,
+    "question5": 19,
+    "question6": 48
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 23,
+    "question6": 49
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2,
+    "question5": 22,
+    "question6": 43
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 4,
+    "question4": 3,
+    "question5": 50,
+    "question6": 27
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 6,
+    "question5": 84,
+    "question6": 20
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 4,
+    "question4": 4,
+    "question5": 60,
+    "question6": 29
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 2,
+    "question4": 6,
+    "question5": 86,
+    "question6": 11
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 5,
+    "question5": 90,
+    "question6": 20
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 6,
+    "question5": 90,
+    "question6": 12
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1,
+    "question5": 22,
+    "question6": 42
+  },
+  {
+    "learnerType": "b",
+    "question1": 4,
+    "question2": 3,
+    "question3": 4,
+    "question4": 4,
+    "question5": 58,
+    "question6": 29
+  },
+  {
+    "learnerType": "a",
+    "question1": 1,
+    "question2": 3,
+    "question3": 2,
+    "question4": 6,
+    "question5": 86,
+    "question6": 18
+  },
+  {
+    "learnerType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1,
+    "question5": 21,
+    "question6": 48
+  }
+]

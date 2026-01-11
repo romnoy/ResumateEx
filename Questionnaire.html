@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>שאלון העדפות סגנונות למידה</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/Questionnaire.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="js/JSQ.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ml5@0.5.0/dist/ml5.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h1 class="mb-0">שאלון העדפות סגנונות למידה בעידן הפוסט-קורונה</h1>
+            </div>
+            <div class="card-body">
+                <div class="instructions">
+                    <h5>הוראות למילוי:</h5>
+                    <p>השאלון הבא נועד לבחון את העדפות סגנונות הלמידה שלך בתקופת הפוסט-קורונה. אנא ענה/עני על כל השאלות
+                        בכנות. אין תשובות נכונות או שגויות. המידע שתספק/י יישאר אנונימי ויישמר בסודיות מוחלטת.</p>
+                    <p class="mb-0"><strong>משך מילוי משוער: כ-5 דקות</strong></p>
+                </div>
+
+                <h4 class="text-center mb-4" style="color: #667eea;">חלק א': מאפייני למידה</h4>
+
+                <form id="questionnaireForm">
+                    <!-- Question 1 -->
+                    <div class="question-block">
+                        <div class="question-title">שאלה 1</div>
+                        <p>היכן את/ה לומד/ת את רוב הזמן (מעל 50%) בשבוע טיפוסי? (סמן/י תשובה אחת בלבד)</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q1" id="q1a" value="0" required>
+                            <label class="form-check-label" for="q1a">
+                                א. בקמפוס (כיתות לימוד, ספרייה, חללים משותפים)
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q1" id="q1b" value="1">
+                            <label class="form-check-label" for="q1b">
+                                ב. בבית (חדר אישי, פינת עבודה קבועה)
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q1" id="q1c" value="2">
+                            <label class="form-check-label" for="q1c">
+                                ג. במקומות ציבוריים (בתי קפה, פארקים, מרכזי קניות)
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q1" id="q1d" value="3">
+                            <label class="form-check-label" for="q1d">
+                                ד. בתנועה/בדרכים (תחבורה ציבורית, בין מקומות)
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q1" id="q1e" value="4">
+                            <label class="form-check-label" for="q1e">
+                                ה. שילוב שווה בין בית לקמפוס
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Question 2 -->
+                    <div class="question-block">
+                        <div class="question-title">שאלה 2</div>
+                        <p>מהו הפורמט הדומיננטי (מעל 50%) של הלימודים שלך בסמסטר/שנה הנוכחית? (סמן/י תשובה אחת בלבד)</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q2" id="q2a" value="0" required>
+                            <label class="form-check-label" for="q2a">
+                                א. רוב הקורסים פרונטליים בכיתה פיזית
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q2" id="q2b" value="1">
+                            <label class="form-check-label" for="q2b">
+                                ב. רוב הקורסים מקוונים בזמן אמת (סינכרוני)
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q2" id="q2c" value="2">
+                            <label class="form-check-label" for="q2c">
+                                ג. רוב הקורסים מוקלטים/אסינכרוניים
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q2" id="q2d" value="3">
+                            <label class="form-check-label" for="q2d">
+                                ד. שילוב שווה של פרונטלי ומקוון (היברידי)
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q2" id="q2e" value="4">
+                            <label class="form-check-label" for="q2e">
+                                ה. כולל למידה עצמאית ללא שיעורים קבועים
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Question 3 -->
+                    <div class="question-block">
+                        <div class="question-title">שאלה 3</div>
+                        <p>איזה מכשיר דיגיטלי את/ה משתמש/ת בו בעיקר (מעל 50% מהזמן) ללמידה אקדמית? (סמן/י תשובה אחת
+                            בלבד)</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3" id="q3a" value="0" required>
+                            <label class="form-check-label" for="q3a">
+                                א. מחשב שולחני (Desktop)
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3" id="q3b" value="1">
+                            <label class="form-check-label" for="q3b">
+                                ב. מחשב נייד (Laptop)
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3" id="q3c" value="2">
+                            <label class="form-check-label" for="q3c">
+                                ג. טאבלט (Tablet/iPad)
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3" id="q3d" value="3">
+                            <label class="form-check-label" for="q3d">
+                                ד. טלפון חכם (Smartphone)
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3" id="q3e" value="4">
+                            <label class="form-check-label" for="q3e">
+                                ה. שילוב שווה של מחשב נייד וטאבלט
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3" id="q3f" value="5">
+                            <label class="form-check-label" for="q3f">
+                                ו. שילוב שווה של מחשב נייד וטלפון
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3" id="q3g" value="6">
+                            <label class="form-check-label" for="q3g">
+                                ז. שילוב שווה של טאבלט וטלפון
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q3" id="q3h" value="7">
+                            <label class="form-check-label" for="q3h">
+                                ח. משתמש/ת במספר מכשירים באופן שווה
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Question 4 -->
+                    <div class="question-block">
+                        <div class="question-title">שאלה 4</div>
+                        <p>כמה שעות ביום בממוצע את/ה משקיע/ה בלמידה עצמאית (מחוץ לשיעורים)? (סמן/י תשובה אחת בלבד)</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4" id="q4a" value="0" required>
+                            <label class="form-check-label" for="q4a">
+                                א. פחות משעה אחת
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4" id="q4b" value="1">
+                            <label class="form-check-label" for="q4b">
+                                ב. 1-2 שעות
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4" id="q4c" value="2">
+                            <label class="form-check-label" for="q4c">
+                                ג. 2-3 שעות
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4" id="q4d" value="3">
+                            <label class="form-check-label" for="q4d">
+                                ד. 3-4 שעות
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4" id="q4e" value="4">
+                            <label class="form-check-label" for="q4e">
+                                ה. 4-5 שעות
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4" id="q4f" value="5">
+                            <label class="form-check-label" for="q4f">
+                                ו. 5-6 שעות
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4" id="q4g" value="6">
+                            <label class="form-check-label" for="q4g">
+                                ז. 6-7 שעות
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4" id="q4h" value="7">
+                            <label class="form-check-label" for="q4h">
+                                ח. 7-8 שעות
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="q4" id="q4i" value="8">
+                            <label class="form-check-label" for="q4i">
+                                ט. יותר מ-8 שעות
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Question 5 - Slider -->
+                    <div class="question-block">
+                        <div class="question-title">שאלה 5</div>
+                        <p>עד כמה את/ה מרגיש/ה שהמעבר ללמידה מקוונת/היברידית בתקופת הקורונה שיפר את היכולת שלך ללמוד
+                            באופן עצמאי ואוטונומי?</p>
+                        <div class="slider-container">
+                            <input type="range" class="form-range" min="0" max="100" value="50" id="q5" name="q5">
+                            <div class="slider-value">
+                                <span id="q5Value">50</span>
+                            </div>
+                            <div class="slider-labels">
+                                <span>כלל לא שיפר (0)</span>
+                                <span>שיפר מאוד (100)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Question 6 - Slider -->
+                    <div class="question-block">
+                        <div class="question-title">שאלה 6</div>
+                        <p>באיזו מידה את/ה חווה תחושות של בדידות חברתית בלמידה האקדמית בתקופת הפוסט-קורונה?</p>
+                        <div class="slider-container">
+                            <input type="range" class="form-range" min="0" max="50" value="25" id="q6" name="q6">
+                            <div class="slider-value">
+                                <span id="q6Value">25</span>
+                            </div>
+                            <div class="slider-labels">
+                                <span>כלל לא (0)</span>
+                                <span>במידה רבה מאוד (50)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <button type="submit" class="btn btn-primary btn-submit">שלח שאלון</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

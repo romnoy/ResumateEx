@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מבחן טיפוסי אישיות</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- ML5.js Library -->
+<script src="https://cdn.jsdelivr.net/npm/ml5@0.5.0/dist/ml5.min.js"></script>
+<!-- Prediction Script -->
+<script src="js/JSQ.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 RTL -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Heebo', sans-serif;
+            background: #F9FAFB;
+            color: #1F2937;
+            line-height: 1.6;
+            min-height: 100vh;
+            
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Hero Header with Gradient */
+        .hero-header {
+            background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
+            border-radius: 24px;
+            padding: 3rem 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            box-shadow: 0 10px 40px rgba(37, 99, 235, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero-icon {
+            width: 80px;
+            height: 80px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            font-size: 2.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-title {
+            font-size: 2rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 0.75rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-subtitle {
+            font-size: 1.125rem;
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: 400;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Question Card */
+        .question-card {
+            background: white;
+            border-radius: 20px;
+            padding: 2.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+            border: 1px solid #E5E7EB;
+            animation: slideUp 0.6s ease-out backwards;
+        }
+
+        .question-card:nth-child(1) { animation-delay: 0.1s; }
+        .question-card:nth-child(2) { animation-delay: 0.2s; }
+        .question-card:nth-child(3) { animation-delay: 0.3s; }
+        .question-card:nth-child(4) { animation-delay: 0.4s; }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .question-header {
+            display: flex;
+            align-items: start;
+            gap: 1rem;
+            margin-bottom: 1.75rem;
+        }
+
+        .question-number {
+            min-width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
+            color: white;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            flex-shrink: 0;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+        }
+
+        .question-text {
+            flex: 1;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1F2937;
+            line-height: 1.5;
+            padding-top: 0.5rem;
+        }
+
+        /* Options */
+        .options {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .option {
+            position: relative;
+            cursor: pointer;
+        }
+
+        .option input[type="radio"] {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .option-content {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1.25rem 1.5rem;
+            background: #F9FAFB;
+            border: 2px solid #E5E7EB;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .option:hover .option-content {
+            background: #F3F4F6;
+            border-color: #2563EB;
+            transform: translateX(-3px);
+        }
+
+        .option input[type="radio"]:checked ~ .option-content {
+            background: #EEF2FF;
+            border-color: #2563EB;
+            box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+        }
+
+        .option-radio {
+            width: 24px;
+            height: 24px;
+            border: 2px solid #D1D5DB;
+            border-radius: 50%;
+            position: relative;
+            flex-shrink: 0;
+            transition: all 0.3s ease;
+            background: white;
+        }
+
+        .option:hover .option-radio {
+            border-color: #2563EB;
+        }
+
+        .option input[type="radio"]:checked ~ .option-content .option-radio {
+            border-color: #2563EB;
+            background: #2563EB;
+        }
+
+        .option-radio::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0);
+            width: 8px;
+            height: 8px;
+            background: white;
+            border-radius: 50%;
+            transition: transform 0.2s ease;
+        }
+
+        .option input[type="radio"]:checked ~ .option-content .option-radio::after {
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        .option-label {
+            flex: 1;
+            font-size: 1.05rem;
+            color: #374151;
+            line-height: 1.6;
+        }
+
+        .option input[type="radio"]:checked ~ .option-content .option-label {
+            color: #1F2937;
+            font-weight: 500;
+        }
+
+        /* Submit Section */
+        .submit-section {
+            text-align: center;
+            margin-top: 2.5rem;
+            animation: fadeIn 0.6s ease-out 0.5s backwards;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .submit-btn {
+            background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
+            color: white;
+            border: none;
+            padding: 1.25rem 3rem;
+            font-size: 1.125rem;
+            font-weight: 700;
+            font-family: 'Heebo', sans-serif;
+            border-radius: 12px;
+            cursor: pointer;
+            box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .submit-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 35px rgba(37, 99, 235, 0.4);
+        }
+
+        .submit-btn:hover::before {
+            left: 100%;
+        }
+
+        .submit-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .submit-btn:disabled:hover {
+            transform: none;
+            box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+        }
+
+        .validation-message {
+            text-align: center;
+            color: #DC2626;
+            font-size: 1rem;
+            margin-top: 1rem;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .validation-message.show {
+            opacity: 1;
+        }
+
+        /* Modal */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(8px);
+            z-index: 1000;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+            opacity: 1;
+        }
+
+        .modal-content {
+            background: white;
+            border-radius: 24px;
+            max-width: 700px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 25px 80px rgba(0, 0, 0, 0.3);
+            position: relative;
+            transform: scale(0.9) translateY(30px);
+            transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        .modal-overlay.active .modal-content {
+            transform: scale(1) translateY(0);
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 1.5rem;
+            left: 1.5rem;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #F3F4F6;
+            border: none;
+            color: #6B7280;
+            font-size: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            z-index: 10;
+        }
+
+        .modal-close:hover {
+            background: #E5E7EB;
+            color: #1F2937;
+            transform: rotate(90deg);
+        }
+
+        /* Result Header */
+        .result-header {
+            background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
+            padding: 3rem 2.5rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .result-header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .result-icon {
+            width: 100px;
+            height: 100px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            margin: 0 auto 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            position: relative;
+            z-index: 1;
+            animation: bounce 1s ease-out;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .result-title {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 0.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .result-subtitle {
+            font-size: 1.25rem;
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: 400;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Result Body */
+        .result-body {
+            padding: 2.5rem;
+        }
+
+        .result-description {
+            font-size: 1.125rem;
+            line-height: 1.8;
+            color: #4B5563;
+            margin-bottom: 2rem;
+            text-align: right;
+        }
+
+        /* Score Breakdown */
+        .score-breakdown {
+            background: #F9FAFB;
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border: 1px solid #E5E7EB;
+        }
+
+        .breakdown-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1F2937;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .score-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .score-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .score-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.75rem;
+        }
+
+        .score-label {
+            font-weight: 600;
+            font-size: 1.05rem;
+            color: #374151;
+        }
+
+        .score-value {
+            font-weight: 700;
+            font-size: 1.25rem;
+            color: #2563EB;
+        }
+
+        .dominant-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 8px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-right: 0.5rem;
+        }
+
+        .score-bar-container {
+            width: 100%;
+            height: 10px;
+            background: #E5E7EB;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .score-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #2563EB 0%, #7C3AED 100%);
+            border-radius: 5px;
+            transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .score-bar::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+            animation: shimmer 2s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+
+        /* Traits */
+        .result-traits {
+            display: grid;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .trait {
+            padding: 1.25rem;
+            background: #F9FAFB;
+            border-radius: 12px;
+            border-right: 4px solid #2563EB;
+            text-align: right;
+        }
+
+        .trait-title {
+            font-weight: 700;
+            font-size: 1.125rem;
+            color: #1F2937;
+            margin-bottom: 0.5rem;
+        }
+
+        .trait-desc {
+            color: #6B7280;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        /* Roles */
+        .result-roles {
+            background: #EEF2FF;
+            border: 2px solid #2563EB;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            text-align: right;
+        }
+
+        .result-roles strong {
+            color: #1F2937;
+            font-size: 1.125rem;
+        }
+
+        /* Restart Button */
+        .restart-btn {
+            width: 100%;
+            background: white;
+            color: #2563EB;
+            border: 2px solid #2563EB;
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            font-weight: 600;
+            font-family: 'Heebo', sans-serif;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .restart-btn:hover {
+            background: #EEF2FF;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem 0.5rem;
+            }
+
+            .hero-header {
+                padding: 2rem 1.5rem;
+                border-radius: 20px;
+            }
+
+            .hero-title {
+                font-size: 1.5rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1rem;
+            }
+
+            .question-card {
+                padding: 1.5rem;
+                border-radius: 16px;
+            }
+
+            .question-text {
+                font-size: 1.125rem;
+            }
+
+            .option-content {
+                padding: 1rem;
+            }
+
+            .modal-content {
+                max-height: 95vh;
+            }
+
+            .result-header {
+                padding: 2rem 1.5rem;
+            }
+
+            .result-body {
+                padding: 1.5rem;
+            }
+
+            .result-title {
+                font-size: 1.75rem;
+            }
+        }
+
+        /* Custom Scrollbar */
+        .modal-content::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .modal-content::-webkit-scrollbar-track {
+            background: #F3F4F6;
+        }
+
+        .modal-content::-webkit-scrollbar-thumb {
+            background: #D1D5DB;
+            border-radius: 4px;
+        }
+
+        .modal-content::-webkit-scrollbar-thumb:hover {
+            background: #9CA3AF;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand gradient-text" href="index.html" style="font-size: 1.75rem; font-weight: 700; background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Resumate</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">אודות</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div>
+
+    <div class="container"  style="padding-top: 2rem !important;">
+        <!-- Hero Header -->
+        <div class="hero-header">
+            <div class="hero-icon">📋</div>
+            <h1 class="hero-title">מבחן טיפוסי אישיות</h1>
+            <p class="hero-subtitle">4 שאלות שיחשפו את הכוחות הייחודיים שלך</p>
+        </div>
+<!-- Job Input Section - Pure Bootstrap -->
+<div class="card shadow-sm border-1 rounded-4 p-4 mb-4">
+    <h3 class="fs-4 fw-bold text-dark text-center mb-4">
+        מה תחום העיניין שלך? או המשרה בה את/ה מתעניין/ת?
+    </h3>
+    
+    <div class="mb-4">
+        <input 
+            type="text" 
+            id="jobField" 
+            class="form-control form-control-lg border-2 rounded-3"
+        >
+    </div>
+
+    <h4 class="fs-5 fw-semibold text-dark mb-3">
+        יש לך מודעת דרושים? העתק/י את דרישות המשרה לכאן:
+    </h4>
+    
+    <div class="mb-3">
+        <textarea 
+            id="jobDescription" 
+            class="form-control form-control-lg border-2 rounded-3" 
+            rows="6"
+            placeholder="כתוב/י כאן את תיאור המשרה והדרישות"
+        ></textarea>
+    </div>
+
+    <p class="text-muted text-center small mb-0">
+        אם אין לך מודעה ספציפית, זה בסדר! נמשיך על בסיס התחום שהזנת
+    </p>
+</div>
+
+        <form id="assessmentForm">
+            <!-- שאלה 1 -->
+            <div class="question-card">
+                <div class="question-header">
+                    <div class="question-number">1</div>
+                    <div class="question-text">מה נותן לך תחושת הישג אמיתי בעבודה?</div>
+                </div>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q1" value="0" required>
+                        <div class="option-content">
+                            <div class="option-radio"></div>
+                            <div class="option-label">א. להשלים משימות ולראות תוצאות מוחשיות</div>
+                        </div>
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q1" value="1">
+                        <div class="option-content">
+                            <div class="option-radio"></div>
+                            <div class="option-label">ב. לשכנע אנשים או לזכות במשהו</div>
+                        </div>
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q1" value="2">
+                        <div class="option-content">
+                            <div class="option-radio"></div>
+                            <div class="option-label">ג. לעזור לאחרים ולראות אותם מצליחים</div>
+                        </div>
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q1" value="3">
+                        <div class="option-content">
+                            <div class="option-radio"></div>
+                            <div class="option-label">ד. להבין דברים עמוקים או למצוא פתרונות חכמים</div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <!-- שאלה 2 -->
+            <div class="question-card">
+                <div class="question-header">
+                    <div class="question-number">2</div>
+                    <div class="question-text">במצב משבר/לחץ, מה האינסטינקט הטבעי שלך?</div>
+                </div>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q2" value="0" required>
+                        <div class="option-content">
+                            <div class="option-radio"></div>
+                            <div class="option-label">א. לעשות רשימת מטלות ולהתחיל לעבוד מיד</div>
+                        </div>
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q2" value="1">
+                        <div class="option-content">
+                            <div class="option-radio"></div>
+                            <div class="option-label">ב. לגייס אנשים ולהניע אותם לפעולה</div>
+                        </div>
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q2" value="2">
+                        <div class="option-content">
+                            <div class="option-radio"></div>
+                            <div class="option-label">ג. לבדוק איך כולם מרגישים ולתמוך בצוות</div>
+                        </div>
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q2" value="3">
+                        <div class="option-content">
+                            <div class="option-radio"></div>
+                            <div class="option-label">ד. לעצור, לנתח את המצב ולתכנן אסטרטגיה</div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <!-- שאלה 3 -->
+            <div class="question-card">
+                <div class="question-header">
+                    <div class="question-number">3</div>
+                    <div class="question-text">איזה תפקיד בפרויקט צוותי הכי מתאים לך?</div>
+                </div>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q3" value="0" required>
+                        <div class="option-content">
+                            <div class="option-radio"></div>
+                            <div class="option-label">א. האחראי על ביצוע - מי שמוודא שדברים קורים בזמן</div>
+                        </div>
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q3" value="1">
+                        <div class="option-content">
+                            <div class="option-radio"></div>
+                            <div class="option-label">ב. המוביל/משפיע - מי שמציג, משכנע ומייצג החוצה</div>
+                        </div>
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q3" value="2">
+                        <div class="option-content">
+                            <div class="option-radio"></div>
+                            <div class="option-label">ג. דבק הצוות - מי שמחבר אנשים ומוודא שכולם מעורבים</div>
+                        </div>
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q3" value="3">
+                        <div class="option-content">
+                            <div class="option-radio"></div>
+                            <div class="option-label">ד. האסטרטג - מי שחושב על התמונה הגדולה והכיוון</div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <!-- שאלה 4 -->
+            <div class="question-card">
+                <div class="question-header">
+                    <div class="question-number">4</div>
+                    <div class="question-text">איך אתה לומד/עובד הכי טוב?</div>
+                </div>
+                <div class="options">
+                    <label class="option">
+                        <input type="radio" name="q4" value="0" required>
+                        <div class="option-content">
+                            <div class="option-radio"></div>
+                            <div class="option-label">א. עם מטרות ברורות, מבנה ושגרה קבועה</div>
+                        </div>
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q4" value="1">
+                        <div class="option-content">
+                            <div class="option-radio"></div>
+                            <div class="option-label">ב. בסביבה תחרותית עם הזדמנויות להוביל</div>
+                        </div>
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q4" value="2">
+                        <div class="option-content">
+                            <div class="option-radio"></div>
+                            <div class="option-label">ג. עם אנשים, בשיתוף פעולה ותקשורת</div>
+                        </div>
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="q4" value="3">
+                        <div class="option-content">
+                            <div class="option-radio"></div>
+                            <div class="option-label">ד. עם עצמאות לחקור, לחשוב ולהתנסות</div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <div class="submit-section">
+                <button type="submit" class="submit-btn" id="submitBtn">גלה את התוצאה</button>
+                <div class="validation-message" id="validationMessage">אנא ענה על כל 4 השאלות</div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Modal for Results -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">✕</button>
+            <div id="modalResults"></div>
+        </div>
+    </div>
+
+ <footer class="py-4" style="background: #1F2937;">
+    <div class="container">
+        <div class="text-center" style="color: #9CA3AF;">
+            <p class="mb-1">&copy; 2025 Resumate. כל הזכויות שמורות.</p>
+            <p class="small">פותח על ידי: מאי לניאדו | נגה כהן | נוי רומאני</p>
+        </div>
+    </div>
+</footer>
+
+    <script>
+        // Real-time validation
+        const submitBtn = document.getElementById('submitBtn');
+        const validationMessage = document.getElementById('validationMessage');
+                
+       function checkAllQuestionsAnswered() {
+    const q1 = document.querySelector('input[name="q1"]:checked');
+    const q2 = document.querySelector('input[name="q2"]:checked');
+    const q3 = document.querySelector('input[name="q3"]:checked');
+    const q4 = document.querySelector('input[name="q4"]:checked');
+    const jobField = document.getElementById('jobField').value.trim();
+    
+    const allAnswered = q1 && q2 && q3 && q4;
+    const hasJobField = jobField !== '';
+    
+    submitBtn.disabled = !(allAnswered && hasJobField);
+    
+    if (!allAnswered) {
+        validationMessage.textContent = 'אנא ענה על כל 4 השאלות';
+        validationMessage.classList.add('show');
+    } else if (!hasJobField) {
+        validationMessage.textContent = 'אנא מלא את שדה תחום העניין';
+        validationMessage.classList.add('show');
+    } else {
+        validationMessage.classList.remove('show');
+    }
+}
+        
+        // Initial check
+        submitBtn.disabled = true;
+        validationMessage.classList.add('show');
+        
+        // Add listeners
+        document.querySelectorAll('input[type="radio"]').forEach(radio => {
+            radio.addEventListener('change', checkAllQuestionsAnswered);
+        });
+        // Add listener to job field
+        document.getElementById('jobField').addEventListener('input', checkAllQuestionsAnswered);
+
+        // Personality types data
+        const personalityTypes = {
+            a: {
+                title: 'Executing',
+                hebrewTitle: 'ביצוע',
+                icon: '🎯',
+                description: 'אתה איש/אשת ביצוע! אתה מצטיין בהפיכת רעיונות למציאות. אנשים סומכים עליך להשלים משימות ולהוביל תהליכים לסיום מוצלח.',
+                traits: [
+                    { title: 'ממוקד תוצאות', desc: 'אתה מונע על ידי השגת מטרות מוחשיות' },
+                    { title: 'מאורגן ומתודי', desc: 'אוהב מבנה, סדר ושגרה קבועה' },
+                    { title: 'אמין ואחראי', desc: 'אפשר לסמוך עליך להשלים מה שהתחלת' },
+                    { title: 'מעשי ופרקטי', desc: 'מעדיף פעולה על פני תיאוריה' }
+                ],
+                roles: 'תפקידים מומלצים: מנהל פרויקטים, מנהל תפעול, רכז לוגיסטיקה, מפקח איכות'
+            },
+            b: {
+                title: 'Influencing',
+                hebrewTitle: 'השפעה',
+                icon: '🚀',
+                description: 'אתה איש/אשת השפעה! אתה מצטיין בשכנוע אחרים, מוביל יזמות ומניע אנשים לפעולה. אתה נולדת למנהיגות.',
+                traits: [
+                    { title: 'כריזמטי ומשפיע', desc: 'יודע לשכנע ולהוביל אנשים' },
+                    { title: 'תחרותי ונחוש', desc: 'אוהב אתגרים ומניע לזכייה' },
+                    { title: 'בטוח בעצמו', desc: 'לא מפחד לקחת סיכונים ולהוביל' },
+                    { title: 'בעל חזון', desc: 'רואה הזדמנויות ויוצר שינוי' }
+                ],
+                roles: 'תפקידים מומלצים: מנהל מכירות, יזם, מנכ"ל, מנהל שיווק'
+            },
+            c: {
+                title: 'Relationship Building',
+                hebrewTitle: 'בניית קשרים',
+                icon: '❤️',
+                description: 'אתה בונה/בונה קשרים מעולה! אתה מצטיין ביצירת אווירה חיובית, בתמיכה באחרים ובחיבור בין אנשים. אתה דבק הצוות.',
+                traits: [
+                    { title: 'אמפתי ותומך', desc: 'מבין ומעריך את רגשות האחרים' },
+                    { title: 'שיתופי פעולה', desc: 'מעדיף עבודת צוות על פני עבודה עצמאית' },
+                    { title: 'מחבר אנשים', desc: 'יוצר תקשורת ויחסים חזקים' },
+                    { title: 'מאזין פעיל', desc: 'נותן תשומת לב אמיתית לצרכי אחרים' }
+                ],
+                roles: 'תפקידים מומלצים: מנהל משאבי אנוש, יועץ ארגוני, מתאם צוות, רכז קהילה'
+            },
+            d: {
+                title: 'Strategic Thinking',
+                hebrewTitle: 'חשיבה אסטרטגית',
+                icon: '🧠',
+                description: 'אתה חושב/חושבת אסטרטגי! אתה מצטיין בניתוח, בפתרון בעיות מורכבות ובתכנון ארוך טווח. אתה רואה את התמונה הגדולה.',
+                traits: [
+                    { title: 'אנליטי ומעמיק', desc: 'בודק דברים לעומק ומבין מערכות מורכבות' },
+                    { title: 'חשיבה עצמאית', desc: 'מעדיף לחקור ולחשוב בעצמו' },
+                    { title: 'חדשני ויצירתי', desc: 'מוצא פתרונות מקוריים לבעיות' },
+                    { title: 'ראיית עתיד', desc: 'מתכנן קדימה ורואה השלכות ארוכות טווח' }
+                ],
+                roles: 'תפקידים מומלצים: אסטרטג עסקי, חוקר, יועץ, מנהל פיתוח מוצר'
+            }
+        };
+
+        // Form submission - will be handled by JSQ.js
+        // The form handler is in JSQ.js and uses the ML model
+     document.getElementById('assessmentForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    // Check if all questions are answered
+    const allAnswered = document.querySelectorAll('input[type="radio"]:checked').length === 4;
+    const jobField = document.getElementById('jobField').value.trim();
+    
+    if (!allAnswered) {
+        alert('אנא ענה על כל 4 השאלות');
+        return;
+    }
+    
+    if (!jobField || jobField === '') {
+        alert('נא למלא את שדה תחום העניין/המשרה');
+        document.getElementById('jobField').focus();
+        return;
+    }
+    
+    // Save job information to localStorage
+    const jobDescription = document.getElementById('jobDescription').value;
+    
+    localStorage.setItem('resumate_jobField', jobField);
+    localStorage.setItem('resumate_jobDescription', jobDescription);
+    
+    console.log('Job data saved:', { jobField, jobDescription });
+    
+    // Then redirect to resume structure page
+    setTimeout(function() {
+        window.location.href = 'resume-structure.html';
+    }, 500);
+});
+
+
+        function displayResults(type, scores) {
+            const personality = personalityTypes[type];
+            const modalResults = document.getElementById('modalResults');
+
+            const typeNames = {
+                a: 'Executing (ביצוע)',
+                b: 'Influencing (השפעה)',
+                c: 'Relationship Building (קשרים)',
+                d: 'Strategic Thinking (אסטרטגיה)'
+            };
+
+            const scoreBreakdownHTML = `
+                <div class="score-breakdown">
+                    <h3 class="breakdown-title">פילוח הניקוד שלך</h3>
+                    ${Object.entries(scores).map(([scoreType, score]) => `
+                        <div class="score-item">
+                            <div class="score-header">
+                                <div class="score-label">
+                                    ${scoreType === type ? '<span class="dominant-badge">דומיננטי</span>' : ''}
+                                    ${typeNames[scoreType]}
+                                </div>
+                                <div class="score-value">${Math.round(score)}%</div>
+                            </div>
+                            <div class="score-bar-container">
+                                <div class="score-bar" style="width: 0%" data-width="${score}%"></div>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+
+            modalResults.innerHTML = `
+                <div class="result-header">
+                    <div class="result-icon">${personality.icon}</div>
+                    <h2 class="result-title">${personality.hebrewTitle}</h2>
+                    <p class="result-subtitle">${personality.title}</p>
+                </div>
+                <div class="result-body">
+                    <p class="result-description">${personality.description}</p>
+                    
+                    ${scoreBreakdownHTML}
+                    
+                    <div class="result-traits">
+                        ${personality.traits.map(trait => `
+                            <div class="trait">
+                                <div class="trait-title">${trait.title}</div>
+                                <div class="trait-desc">${trait.desc}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                    
+                    <div class="result-roles">
+                        <strong>${personality.roles}</strong>
+                    </div>
+                    
+                    <button class="restart-btn" onclick="restartAssessment()">בצע מבחן מחדש</button>
+                </div>
+            `;
+
+            const modalOverlay = document.getElementById('modalOverlay');
+            modalOverlay.classList.add('active');
+
+            setTimeout(() => {
+                document.querySelectorAll('.score-bar').forEach(bar => {
+                    bar.style.width = bar.dataset.width;
+                });
+            }, 400);
+
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            const modalOverlay = document.getElementById('modalOverlay');
+            modalOverlay.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        function restartAssessment() {
+            closeModal();
+            document.getElementById('assessmentForm').reset();
+            checkAllQuestionsAnswered();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        document.getElementById('modalOverlay').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+
+    </div> <!-- End wrapper -->
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
