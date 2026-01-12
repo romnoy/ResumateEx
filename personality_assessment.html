@@ -681,46 +681,54 @@
             </div>
         </div>
     </nav>
-    <div>
+    <div style="padding-top: 3rem;">
 
-    <div class="container"  style="padding-top: 2rem !important;">
+    <div class="container">
         <!-- Hero Header -->
         <div class="hero-header">
             <div class="hero-icon">📋</div>
             <h1 class="hero-title">מבחן טיפוסי אישיות</h1>
             <p class="hero-subtitle">4 שאלות שיחשפו את הכוחות הייחודיים שלך</p>
         </div>
-<!-- Job Input Section - Pure Bootstrap -->
-<div class="card shadow-sm border-1 rounded-4 p-4 mb-4">
-    <h3 class="fs-4 fw-bold text-dark text-center mb-4">
-        מה תחום העיניין שלך? או המשרה בה את/ה מתעניין/ת?
-    </h3>
-    
-    <div class="mb-4">
-        <input 
-            type="text" 
-            id="jobField" 
-            class="form-control form-control-lg border-2 rounded-3"
-        >
-    </div>
 
-    <h4 class="fs-5 fw-semibold text-dark mb-3">
-        יש לך מודעת דרושים? העתק/י את דרישות המשרה לכאן:
-    </h4>
-    
-    <div class="mb-3">
-        <textarea 
-            id="jobDescription" 
-            class="form-control form-control-lg border-2 rounded-3" 
-            rows="6"
-            placeholder="כתוב/י כאן את תיאור המשרה והדרישות"
-        ></textarea>
-    </div>
+        <!-- Job Input Section -->
+        <div class="job-input-section" style="background: white; border-radius: 20px; padding: 2.5rem; margin-bottom: 2rem; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06); border: 1px solid #E5E7EB;">
+            <h3 style="font-size: 1.5rem; font-weight: 700; color: #1F2937; margin-bottom: 1.5rem; text-align: center;">
+                מה תחום העיניין שלך? או המשרה בה את/ה מתעניין/ת?
+            </h3>
+            
+            <div class="mb-4">
+                <input 
+                    type="text" 
+                    id="jobField" 
+                    class="form-control" 
+                    placeholder=""
+                    style="padding: 1rem; border: 2px solid #E5E7EB; border-radius: 12px; font-size: 1rem; transition: all 0.3s;"
+                    onfocus="this.style.borderColor='#2563EB'; this.style.boxShadow='0 0 0 4px rgba(37, 99, 235, 0.1)';"
+                    onblur="this.style.borderColor='#E5E7EB'; this.style.boxShadow='none';"
+                >
+            </div>
 
-    <p class="text-muted text-center small mb-0">
-        אם אין לך מודעה ספציפית, זה בסדר! נמשיך על בסיס התחום שהזנת
-    </p>
-</div>
+            <h4 style="font-size: 1.125rem; font-weight: 600; color: #1F2937; margin-bottom: 1rem;">
+                יש לך מודעת דרושים? העתק/י את דרישות המשרה לכאן:
+            </h4>
+            
+            <div class="mb-3">
+                <textarea 
+                    id="jobDescription" 
+                    class="form-control" 
+                    rows="6"
+                    placeholder="הרבקע/ כאן את תיאור המשרה והדרישות מהמועמד/ת..."
+                    style="padding: 1rem; border: 2px solid #E5E7EB; border-radius: 12px; font-size: 1rem; resize: vertical; transition: all 0.3s;"
+                    onfocus="this.style.borderColor='#2563EB'; this.style.boxShadow='0 0 0 4px rgba(37, 99, 235, 0.1)';"
+                    onblur="this.style.borderColor='#E5E7EB'; this.style.boxShadow='none';"
+                ></textarea>
+            </div>
+
+            <p style="font-size: 0.9rem; color: #6B7280; text-align: center; margin: 0;">
+                אם אין לך מודעה ספציפית, זה בסדר! נמשיך על בסיס התחום שהזנת
+            </p>
+        </div>
 
         <form id="assessmentForm">
             <!-- שאלה 1 -->
@@ -890,42 +898,27 @@
         </div>
     </div>
 
- <footer class="py-4" style="background: #1F2937;">
-    <div class="container">
-        <div class="text-center" style="color: #9CA3AF;">
-            <p class="mb-1">&copy; 2025 Resumate. כל הזכויות שמורות.</p>
-            <p class="small">פותח על ידי: מאי לניאדו | נגה כהן | נוי רומאני</p>
-        </div>
-    </div>
-</footer>
-
     <script>
         // Real-time validation
         const submitBtn = document.getElementById('submitBtn');
         const validationMessage = document.getElementById('validationMessage');
-                
-       function checkAllQuestionsAnswered() {
-    const q1 = document.querySelector('input[name="q1"]:checked');
-    const q2 = document.querySelector('input[name="q2"]:checked');
-    const q3 = document.querySelector('input[name="q3"]:checked');
-    const q4 = document.querySelector('input[name="q4"]:checked');
-    const jobField = document.getElementById('jobField').value.trim();
-    
-    const allAnswered = q1 && q2 && q3 && q4;
-    const hasJobField = jobField !== '';
-    
-    submitBtn.disabled = !(allAnswered && hasJobField);
-    
-    if (!allAnswered) {
-        validationMessage.textContent = 'אנא ענה על כל 4 השאלות';
-        validationMessage.classList.add('show');
-    } else if (!hasJobField) {
-        validationMessage.textContent = 'אנא מלא את שדה תחום העניין';
-        validationMessage.classList.add('show');
-    } else {
-        validationMessage.classList.remove('show');
-    }
-}
+        
+        function checkAllQuestionsAnswered() {
+            const q1 = document.querySelector('input[name="q1"]:checked');
+            const q2 = document.querySelector('input[name="q2"]:checked');
+            const q3 = document.querySelector('input[name="q3"]:checked');
+            const q4 = document.querySelector('input[name="q4"]:checked');
+            
+            const allAnswered = q1 && q2 && q3 && q4;
+            
+            submitBtn.disabled = !allAnswered;
+            
+            if (!allAnswered) {
+                validationMessage.classList.add('show');
+            } else {
+                validationMessage.classList.remove('show');
+            }
+        }
         
         // Initial check
         submitBtn.disabled = true;
@@ -935,8 +928,6 @@
         document.querySelectorAll('input[type="radio"]').forEach(radio => {
             radio.addEventListener('change', checkAllQuestionsAnswered);
         });
-        // Add listener to job field
-        document.getElementById('jobField').addEventListener('input', checkAllQuestionsAnswered);
 
         // Personality types data
         const personalityTypes = {
@@ -996,37 +987,73 @@
 
         // Form submission - will be handled by JSQ.js
         // The form handler is in JSQ.js and uses the ML model
-     document.getElementById('assessmentForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    
-    // Check if all questions are answered
-    const allAnswered = document.querySelectorAll('input[type="radio"]:checked').length === 4;
-    const jobField = document.getElementById('jobField').value.trim();
-    
-    if (!allAnswered) {
-        alert('אנא ענה על כל 4 השאלות');
-        return;
-    }
-    
-    if (!jobField || jobField === '') {
-        alert('נא למלא את שדה תחום העניין/המשרה');
-        document.getElementById('jobField').focus();
-        return;
-    }
-    
-    // Save job information to localStorage
-    const jobDescription = document.getElementById('jobDescription').value;
-    
-    localStorage.setItem('resumate_jobField', jobField);
-    localStorage.setItem('resumate_jobDescription', jobDescription);
-    
-    console.log('Job data saved:', { jobField, jobDescription });
-    
-    // Then redirect to resume structure page
-    setTimeout(function() {
-        window.location.href = 'resume-structure.html';
-    }, 500);
-});
+        
+        // Override: After JSQ.js saves the results, redirect to chat
+        document.getElementById('assessmentForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Check if all questions are answered
+            const allAnswered = document.querySelectorAll('input[type="radio"]:checked').length === 4;
+            const jobField = document.getElementById('jobField').value.trim();
+            
+            if (!allAnswered) {
+                alert('אנא ענה על כל 4 השאלות');
+                return;
+            }
+            
+            if (!jobField || jobField === '') {
+                alert('נא למלא את שדה תחום העניין/המשרה');
+                document.getElementById('jobField').focus();
+                return;
+            }
+            
+            // Calculate personality type from answers
+            const answers = {
+                q1: document.querySelector('input[name="q1"]:checked').value,
+                q2: document.querySelector('input[name="q2"]:checked').value,
+                q3: document.querySelector('input[name="q3"]:checked').value,
+                q4: document.querySelector('input[name="q4"]:checked').value
+            };
+            
+            // Count each personality type
+            const counts = { '0': 0, '1': 0, '2': 0, '3': 0 };
+            Object.values(answers).forEach(val => counts[val]++);
+            
+            // Find dominant type
+            let dominantType = '0';
+            let maxCount = 0;
+            for (let type in counts) {
+                if (counts[type] > maxCount) {
+                    maxCount = counts[type];
+                    dominantType = type;
+                }
+            }
+            
+            // Map to letter
+            const typeMap = { '0': 'a', '1': 'b', '2': 'c', '3': 'd' };
+            const personalityLetter = typeMap[dominantType];
+            
+            // Save personality data
+            const personalityData = {
+                type: personalityLetter,
+                scores: counts,
+                timestamp: new Date().toISOString()
+            };
+            
+            // Save job information and personality to localStorage
+            const jobDescription = document.getElementById('jobDescription').value;
+            
+            localStorage.setItem('resumate_jobField', jobField);
+            localStorage.setItem('resumate_jobDescription', jobDescription);
+            localStorage.setItem('resumate_personality', JSON.stringify(personalityData));
+            
+            console.log('Job data and personality saved:', { jobField, jobDescription, personalityData });
+            
+            // Redirect to resume structure page
+            setTimeout(function() {
+                window.location.href = 'resume-structure.html';
+            }, 500);
+        });
 
 
         function displayResults(type, scores) {
@@ -1125,6 +1152,16 @@
             }
         });
     </script>
+
+    <!-- Footer -->
+    <footer class="py-4" style="background: #1F2937;">
+        <div class="container">
+            <div class="text-center text-muted">
+                <p class="mb-1">&copy; 2025 Resumate. כל הזכויות שמורות.</p>
+                <p class="small">פותח על ידי: מאי לניאדו | נגה כהן | נוי רומאני</p>
+            </div>
+        </div>
+    </footer>
 
     </div> <!-- End wrapper -->
     
