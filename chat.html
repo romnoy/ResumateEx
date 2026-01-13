@@ -11,47 +11,17 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     
+    <!-- Common Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    
     <style>
+        /* Page-Specific Styles for chat.html */
+        
         body {
-            font-family: 'Heebo', sans-serif;
             background: #F9FAFB;
             height: 100vh;
             display: flex;
             flex-direction: column;
-        }
-
-        .gradient-text {
-            background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .navbar-brand {
-            font-size: 1.75rem;
-            font-weight: 700;
-        }
-
-        .nav-link {
-            font-weight: 500;
-            font-size: 1.05rem;
-        }
-
-        .btn-gradient {
-            background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
-            border: none;
-            color: white;
-            font-weight: 600;
-            padding: 0.75rem 1.5rem;
-            border-radius: 12px;
-            transition: all 0.3s;
-            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
-        }
-
-        .btn-gradient:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
-            color: white;
         }
 
         /* Chat Container */
@@ -93,7 +63,6 @@
             overflow-y: auto;
             padding: 2rem;
             background: #F9FAFB;
-             max-width: 100%;
         }
 
         .message {
@@ -121,24 +90,21 @@
             justify-content: flex-end;
         }
 
-       .message-bubble {
-    max-width: 75%;
-    padding: 1rem 1.25rem;
-    border-radius: 18px;
-    word-wrap: break-word;
-    white-space: pre-line;
-}
+        .message-bubble {
+            max-width: 70%;
+            padding: 1rem 1.25rem;
+            border-radius: 18px;
+            word-wrap: break-word;
+        }
 
-.message.bot .message-bubble {
-    max-width: 90%;
-    min-width: 300px;
-    background: white;
-    border: 2px solid #E5E7EB;
-    color: #1F2937;
-    border-bottom-right-radius: 18px;
-    border-bottom-left-radius: 4px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-}
+        .message.bot .message-bubble {
+            background: white;
+            border: 2px solid #E5E7EB;
+            color: #1F2937;
+            border-bottom-right-radius: 18px;
+            border-bottom-left-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
 
         .message.user .message-bubble {
             background: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
@@ -215,8 +181,8 @@
         }
 
         /* Typing Indicator */
-       .typing-indicator {
-    display: none;
+        .typing-indicator {
+             display: none;
     padding: 1rem 1.25rem;
     background: white;
     border: 2px solid #E5E7EB;
@@ -224,7 +190,7 @@
     border-bottom-left-radius: 4px;
     min-width: 80px;
     width: fit-content;
-}
+        }
 
         .typing-indicator.show {
             display: block;
@@ -361,176 +327,30 @@
             </div>
         </div>
     </div>
+    <br>
+
+ <!-- Footer -->
+    <footer class="py-2 mt-3" style="background: #1F2937;">
+        <div class="container">
+            <div class="text-center" style="color: #9CA3AF;">
+                <p class="mb-1">&copy; 2025 Resumate. כל הזכויות שמורות.</p>
+                <p class="small">פותח על ידי: מאי לניאדו | נגה כהן | נוי רומאני</p>
+            </div>
+        </div>
+    </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
+    <!-- Resumate JavaScript Modules -->
+    <script src="js/config.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/chat.js"></script>
+    
     <script>
-        // Chat Infrastructure - 3 Question Flow
-        
-        const chatMessages = document.getElementById('chatMessages');
-        const chatInput = document.getElementById('chatInput');
-        const sendButton = document.getElementById('sendButton');
-        const typingIndicator = document.getElementById('typingIndicator');
-
-        // Conversation state
-        let currentQuestion = 0;
-        const answers = {
-    userName: '',
-    workExperience: '',
-    skills: '',
-    education: ''
-};
-const questions = [
-    {
-        key: 'userName',
-        text: 'היי! שמי רזומי 👋\n\nמה שמך?'
-    },
-    {
-        key: 'workExperience',
-        text: 'נעים מאוד להכיר! 😊\n\nבואי נתחיל: ספרי לי על הניסיון התעסוקתי שלך. איזה תפקידים היו לך? באילו חברות? מתי?'
-    },
-    {
-        key: 'skills',
-        text: 'מעולה! תודה על המידע 👍\n\nעכשיו, ספרי לי על הכישורים שלך:\n• כישורים טכניים (תוכנות, כלים, טכנולוגיות)\n• כישורים רכים (עבודת צוות, ניהול זמן, תקשורת וכו\')'
-    },
-    {
-        key: 'education',
-        text: 'נהדר! כמעט סיימנו 🎯\n\nשאלה אחרונה: ספרי לי על ההשכלה שלך. תארים, קורסים, הכשרות - כל מה שרלוונטי!'
-    }
-];
-
-        // Function to add message to chat
-        function addMessage(text, isUser = false) {
-            const messageDiv = document.createElement('div');
-            messageDiv.className = `message ${isUser ? 'user' : 'bot'}`;
-            
-            const bubbleDiv = document.createElement('div');
-            bubbleDiv.className = 'message-bubble';
-            bubbleDiv.style.whiteSpace = 'pre-line'; // Preserve line breaks
-            bubbleDiv.textContent = text;
-            
-            messageDiv.appendChild(bubbleDiv);
-            
-            // Insert before typing indicator
-            const typingParent = typingIndicator.parentElement;
-            chatMessages.insertBefore(messageDiv, typingParent);
-            
-            // Scroll to bottom
-            chatMessages.scrollTop = chatMessages.scrollHeight;
-        }
-
-        // Function to show typing indicator
-        function showTyping() {
-            typingIndicator.classList.add('show');
-            chatMessages.scrollTop = chatMessages.scrollHeight;
-        }
-
-        // Function to hide typing indicator
-        function hideTyping() {
-            typingIndicator.classList.remove('show');
-        }
-
-        // Ask current question
-        function askQuestion() {
-            if (currentQuestion >= questions.length) {
-                // All questions answered - save and redirect
-                saveAnswersAndRedirect();
-                return;
-            }
-
-            showTyping();
-            
-            setTimeout(() => {
-                hideTyping();
-                addMessage(questions[currentQuestion].text);
-            }, 1000);
-        }
-
-        // Send message function
-        function sendMessage() {
-            const message = chatInput.value.trim();
-            if (!message) return;
-
-            // Add user message
-            addMessage(message, true);
-            chatInput.value = '';
-
-            // Save answer
-            const questionKey = questions[currentQuestion].key;
-            answers[questionKey] = message;
-
-            // Move to next question
-            currentQuestion++;
-            
-            // Ask next question after delay
-            setTimeout(() => {
-                askQuestion();
-            }, 800);
-        }
-
-        // Save all answers and redirect
-        function saveAnswersAndRedirect() {
-            showTyping();
-            
-            setTimeout(() => {
-                hideTyping();
-                addMessage('מעולה! אני מכינה עבורך את קורות החיים... ⏳');
-                
-                // Save to localStorage
-localStorage.setItem('resumate_userName', answers.userName);
-localStorage.setItem('resumate_workExperience', answers.workExperience);
-localStorage.setItem('resumate_skills', answers.skills);
-localStorage.setItem('resumate_education', answers.education);
-                
-                console.log('Answers saved:', answers);
-                
-                // Redirect after delay
-                setTimeout(() => {
-                    window.location.href = 'resume-preview.html';
-                }, 2000);
-            }, 1000);
-        }
-
-        // Event listeners
-        chatInput.addEventListener('keypress', function(e) {
-            if (e.key === 'Enter' && !chatInput.disabled) {
-                sendMessage();
-            }
-        });
-
-        sendButton.addEventListener('click', function() {
-            if (!sendButton.disabled) {
-                sendMessage();
-            }
-        });
-
-        // Load saved job data from localStorage
+        // אתחול הצ'אט כאשר הדף נטען
         window.addEventListener('DOMContentLoaded', function() {
-            const jobField = localStorage.getItem('resumate_jobField');
-            const jobDescription = localStorage.getItem('resumate_jobDescription');
-            
-            if (jobField || jobDescription) {
-                console.log('Loaded job data:', {
-                    jobField: jobField,
-                    jobDescription: jobDescription
-                });
-            }
-
-            // Enable chat
-            chatInput.disabled = false;
-            sendButton.disabled = false;
-            
-            // Remove the welcome box
-            const welcomeBox = document.querySelector('.welcome-box');
-            if (welcomeBox) {
-                welcomeBox.remove();
-            }
-            
-            // Start the conversation
-            setTimeout(() => {
-                askQuestion();
-            }, 500);
+            ResumateChat.init();
         });
     </script>
 </body>
