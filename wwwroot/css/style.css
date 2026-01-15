@@ -1,0 +1,557 @@
+/* ============================================
+   RESUMATE - Common Styles
+   ============================================ */
+
+/* ============================================
+   1. BASE & RESET
+   ============================================ */
+
+/* Original styles */
+.card-img-top {
+    height: 150px;
+}
+
+.card-body h3 {
+    margin-bottom: 20px;
+    font-size: 14pt;
+    text-align: center;
+}
+
+video, img, canvas {
+    max-width: 100%;
+}
+
+.red {
+    color: red;
+}
+
+/* Base body styles */
+body {
+    font-family: 'Heebo', sans-serif;
+    line-height: 1.6;
+    color: #1F2937;
+}
+
+/* ============================================
+   2. COLORS & GRADIENTS
+   ============================================ */
+
+:root {
+    /* Primary Colors */
+    --primary-blue: #2563EB;
+    --primary-purple: #7C3AED;
+    --primary-green: #10B981;
+    
+    /* Gray Scale */
+    --gray-50: #F9FAFB;
+    --gray-100: #F3F4F6;
+    --gray-200: #E5E7EB;
+    --gray-300: #D1D5DB;
+    --gray-400: #9CA3AF;
+    --gray-500: #6B7280;
+    --gray-600: #4B5563;
+    --gray-700: #374151;
+    --gray-800: #1F2937;
+    --gray-900: #111827;
+    
+    /* Status Colors */
+    --success: #10B981;
+    --warning: #F59E0B;
+    --error: #EF4444;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, #2563EB 0%, #7C3AED 100%);
+    --gradient-success: linear-gradient(135deg, #10B981 0%, #2563EB 100%);
+}
+
+.gradient-bg {
+    background: var(--gradient-primary);
+}
+
+.gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* ============================================
+   3. NAVIGATION
+   ============================================ */
+
+.navbar-brand {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 1.05rem;
+}
+
+/* ============================================
+   4. BUTTONS
+   ============================================ */
+
+/* Primary Gradient Button */
+.btn-gradient {
+    background: var(--gradient-primary);
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 12px;
+    transition: all 0.3s;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+    cursor: pointer;
+}
+
+.btn-gradient:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+    color: white;
+}
+
+/* Primary Custom Button */
+.btn-primary-custom {
+    background: var(--gradient-primary);
+    color: white;
+    border: none;
+    padding: 1rem 3rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+}
+
+.btn-primary-custom:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 35px rgba(37, 99, 235, 0.4);
+    color: white;
+}
+
+/* Secondary Custom Button */
+.btn-secondary-custom {
+    background: white;
+    color: var(--primary-blue);
+    border: 2px solid var(--primary-blue);
+    padding: 1rem 3rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15);
+}
+
+.btn-secondary-custom:hover {
+    background: #EEF2FF;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(37, 99, 235, 0.25);
+}
+
+/* White Button */
+.btn-white {
+    background: white;
+    color: var(--primary-blue);
+    font-weight: 700;
+    padding: 1rem 2.5rem;
+    border-radius: 14px;
+    transition: all 0.3s;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn-white:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+    color: var(--primary-blue);
+}
+
+/* Outline White Button */
+.btn-outline-white {
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    font-weight: 600;
+    padding: 1rem 2.5rem;
+    border-radius: 14px;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s;
+}
+
+.btn-outline-white:hover {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.5);
+    color: white;
+}
+
+/* ============================================
+   5. CARDS
+   ============================================ */
+
+.feature-card {
+    border-radius: 20px;
+    border: 2px solid var(--gray-200);
+    transition: all 0.3s;
+    height: 100%;
+}
+
+.feature-card:hover {
+    border-color: var(--primary-blue);
+    transform: translateY(-8px);
+    box-shadow: 0 12px 40px rgba(37, 99, 235, 0.15);
+}
+
+.feature-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* ============================================
+   6. SECTIONS
+   ============================================ */
+
+.section-badge {
+    background: linear-gradient(135deg, #EEF2FF 0%, #F3E8FF 100%);
+    color: var(--primary-blue);
+    padding: 0.5rem 1.25rem;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    display: inline-block;
+}
+
+/* Hero Sections */
+.hero-section {
+    position: relative;
+    overflow: hidden;
+    padding: 5rem 0;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -10%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+    border-radius: 50%;
+}
+
+.hero-section::after {
+    content: '';
+    position: absolute;
+    bottom: -30%;
+    right: -5%;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.08) 0%, transparent 70%);
+    border-radius: 50%;
+}
+
+/* ============================================
+   7. FOOTER
+   ============================================ */
+
+footer {
+    background: var(--gray-800);
+    color: var(--gray-400);
+}
+
+footer h5 {
+    color: white;
+}
+
+footer a {
+    color: var(--gray-400);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* ============================================
+   8. ANIMATIONS
+   ============================================ */
+
+.fade-in-up {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ============================================
+   9. UTILITIES
+   ============================================ */
+
+/* Text alignment */
+.text-center {
+    text-align: center;
+}
+
+/* Spacing utilities */
+.mb-1 { margin-bottom: 0.25rem; }
+.mb-2 { margin-bottom: 0.5rem; }
+.mb-3 { margin-bottom: 1rem; }
+.mb-4 { margin-bottom: 1.5rem; }
+.mb-5 { margin-bottom: 3rem; }
+
+.mt-1 { margin-top: 0.25rem; }
+.mt-2 { margin-top: 0.5rem; }
+.mt-3 { margin-top: 1rem; }
+.mt-4 { margin-top: 1.5rem; }
+.mt-5 { margin-top: 3rem; }
+
+/* ============================================
+   10. RESPONSIVE
+   ============================================ */
+
+@media (max-width: 768px) {
+    body {
+        font-size: 0.95rem;
+    }
+    
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    
+    .btn-primary-custom,
+    .btn-secondary-custom {
+        padding: 0.875rem 2rem;
+        font-size: 1rem;
+    }
+    
+    .hero-section {
+        padding: 3rem 0;
+    }
+}
+
+/* ============================================
+   11. PRINT STYLES
+   ============================================ */
+
+@media print {
+    .navbar,
+    .footer,
+    .btn {
+        display: none;
+    }
+    
+    body {
+        font-size: 12pt;
+    }
+}
+
+/* ============================================
+   12. FIXES & IMPROVEMENTS (ינואר 2025)
+   ============================================ */
+
+/* ✅ תיקון 1: כפתור "צור קורות חיים" - hover קריא */
+.btn-white:hover {
+    background: rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+    border-color: white !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
+}
+
+.btn-outline-white:hover {
+    background: white !important;
+    color: #2563EB !important;
+    transform: translateY(-2px);
+}
+
+/* ✅ תיקון 2: הקטנת כל הטקסטים משמעותית */
+
+/* הקטנת כותרות */
+h1, .display-3 {
+    font-size: 2.2rem !important;
+}
+
+h2, .display-5 {
+    font-size: 1.6rem !important;
+}
+
+h3 {
+    font-size: 1.3rem !important;
+}
+
+h4 {
+    font-size: 1.05rem !important;
+}
+
+h5 {
+    font-size: 0.95rem !important;
+}
+
+/* הקטנת טקסט רגיל */
+body, p {
+    font-size: 0.9rem !important;
+}
+
+.lead {
+    font-size: 1rem !important;
+}
+
+.lead.fs-4 {
+    font-size: 1.05rem !important;
+}
+
+/* הקטנת כפתורים */
+.btn-lg {
+    font-size: 0.95rem !important;
+    padding: 0.65rem 1.3rem !important;
+}
+
+.btn {
+    font-size: 0.85rem !important;
+    padding: 0.45rem 0.9rem !important;
+}
+
+/* הקטנת אייקונים */
+.hero-icon,
+.success-icon,
+.pain-icon,
+.feature-icon {
+    font-size: 1.8rem !important;
+    width: 55px !important;
+    height: 55px !important;
+}
+
+/* הקטנת תוכן כרטיסים */
+.card-title {
+    font-size: 1.05rem !important;
+}
+
+.card-text {
+    font-size: 0.85rem !important;
+}
+
+.card-body {
+    padding: 1.25rem !important;
+}
+
+/* ✅ תיקון חדש: הקטנת Header ב-INDEX */
+.hero-section {
+    padding: 3.5rem 0 !important;
+}
+
+.hero-badge {
+    padding: 0.4rem 1.2rem !important;
+    font-size: 0.85rem !important;
+}
+
+/* ✅ תיקון חדש: הקטנת DIVs ב-match-analysis */
+.match-card,
+.recommendation-card,
+.analysis-card {
+    padding: 1.25rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.score-circle,
+.match-score-display {
+    width: 120px !important;
+    height: 120px !important;
+    font-size: 2rem !important;
+}
+
+/* הקטנת כרטיסים כללית */
+.pain-card,
+.feature-card {
+    padding: 1.5rem !important;
+}
+
+/* הקטנת sections */
+section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.py-5 {
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.5rem !important;
+}
+
+.py-4 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
+/* הקטנת step numbers */
+.step-number {
+    width: 60px !important;
+    height: 60px !important;
+    font-size: 1.5rem !important;
+}
+
+/* ✅ תיקון 3: הודעת שגיאה על תחום עניין - כמו שאר השגיאות */
+.field-error-message {
+    display: none;
+    color: #EF4444;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    padding: 0.75rem;
+    background: #FEE2E2;
+    border-radius: 8px;
+    border-left: 4px solid #EF4444;
+}
+
+.field-error-message.show {
+    display: block;
+    animation: slideDown 0.3s ease-in;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.input-error {
+    border-color: #EF4444 !important;
+    background: #FEF2F2 !important;
+}
+
+

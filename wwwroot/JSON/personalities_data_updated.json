@@ -1,0 +1,2802 @@
+[
+  {
+    "personalityType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 2,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 1,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 2
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 1,
+    "question2": 2,
+    "question3": 0,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 2,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 2,
+    "question2": 2,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 1,
+    "question2": 0,
+    "question3": 2,
+    "question4": 0
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 0,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "b",
+    "question1": 0,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 0,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 0
+  },
+  {
+    "personalityType": "c",
+    "question1": 1,
+    "question2": 1,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 0,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 3,
+    "question3": 1,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 2,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 1,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "a",
+    "question1": 2,
+    "question2": 1,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 3,
+    "question3": 2,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 1,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 1,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 2,
+    "question2": 0,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 2,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "a",
+    "question1": 1,
+    "question2": 0,
+    "question3": 3,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 1,
+    "question2": 1,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 1,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 3,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 0,
+    "question3": 3,
+    "question4": 1
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 2,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 0,
+    "question4": 3
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 0,
+    "question2": 2,
+    "question3": 1,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 2,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 0,
+    "question2": 2,
+    "question3": 2,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 2,
+    "question3": 0,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 0,
+    "question3": 3,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 2,
+    "question2": 1,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 1,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "a",
+    "question1": 1,
+    "question2": 0,
+    "question3": 2,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 0,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 3,
+    "question2": 2,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 1
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 1,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "b",
+    "question1": 2,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 0,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 3,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "b",
+    "question1": 3,
+    "question2": 2,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 0,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 2,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 3,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 3,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 3,
+    "question4": 1
+  },
+  {
+    "personalityType": "b",
+    "question1": 0,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 1,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 0,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 2,
+    "question2": 0,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 1,
+    "question3": 3,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 0,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 0,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 0,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 0,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 1,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 3,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 2
+  },
+  {
+    "personalityType": "a",
+    "question1": 1,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "a",
+    "question1": 2,
+    "question2": 0,
+    "question3": 3,
+    "question4": 0
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 0,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 2,
+    "question2": 1,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 3,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 3,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 3,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 0,
+    "question2": 3,
+    "question3": 0,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 0,
+    "question2": 1,
+    "question3": 0,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 1,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 1,
+    "question2": 3,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 0,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 3,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "b",
+    "question1": 0,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 3,
+    "question3": 0,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 0,
+    "question4": 3
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 2,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 0,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 2,
+    "question3": 0,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 1,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 0,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 2,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 3,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 1,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 1,
+    "question3": 2,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 0,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 0,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 2,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 1,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 2,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 0,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "b",
+    "question1": 2,
+    "question2": 2,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 0,
+    "question2": 0,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 1,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 3,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 2,
+    "question2": 1,
+    "question3": 2,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 2,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 0,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 0,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 1,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 2,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 2,
+    "question2": 3,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 0,
+    "question2": 2,
+    "question3": 2,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 1
+  },
+  {
+    "personalityType": "b",
+    "question1": 3,
+    "question2": 3,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 0,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "b",
+    "question1": 3,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 0,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 2,
+    "question3": 3,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 1,
+    "question2": 3,
+    "question3": 3,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 2,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 2,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 1,
+    "question2": 0,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 0,
+    "question3": 0,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 2,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 1,
+    "question3": 2,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 3,
+    "question3": 2,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 1,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 2,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 1,
+    "question2": 3,
+    "question3": 0,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 0,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 0,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 0,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 2,
+    "question2": 2,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 3
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 2,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 1
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 0,
+    "question3": 2,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 0,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 3,
+    "question2": 2,
+    "question3": 0,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 0,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 2,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 0,
+    "question4": 2
+  },
+  {
+    "personalityType": "a",
+    "question1": 3,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 2,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 0,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 3,
+    "question2": 0,
+    "question3": 3,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 0,
+    "question2": 3,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 1,
+    "question2": 0,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 3,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 0,
+    "question3": 0,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 1,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 2,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 0,
+    "question3": 0,
+    "question4": 3
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 3,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 1,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 0,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 1,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 0,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 2,
+    "question2": 0,
+    "question3": 2,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 0,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 2
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 3
+  },
+  {
+    "personalityType": "b",
+    "question1": 0,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 0,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 2,
+    "question2": 0,
+    "question3": 1,
+    "question4": 3
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 3,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 3,
+    "question4": 2
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1
+  },
+  {
+    "personalityType": "b",
+    "question1": 0,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 3
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 3,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 3,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 0,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "c",
+    "question1": 0,
+    "question2": 0,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 3,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 1,
+    "question2": 0,
+    "question3": 0,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 0,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "b",
+    "question1": 2,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "b",
+    "question1": 3,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 0,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 2,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "c",
+    "question1": 3,
+    "question2": 2,
+    "question3": 2,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 0,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 0
+  },
+  {
+    "personalityType": "c",
+    "question1": 3,
+    "question2": 2,
+    "question3": 3,
+    "question4": 2
+  },
+  {
+    "personalityType": "a",
+    "question1": 2,
+    "question2": 3,
+    "question3": 1,
+    "question4": 2
+  },
+  {
+    "personalityType": "a",
+    "question1": 1,
+    "question2": 0,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 0,
+    "question2": 3,
+    "question3": 3,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 3,
+    "question4": 0
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 0,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 0,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 0,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 0,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 0
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 1,
+    "question2": 2,
+    "question3": 0,
+    "question4": 2
+  },
+  {
+    "personalityType": "a",
+    "question1": 3,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 1
+  },
+  {
+    "personalityType": "c",
+    "question1": 0,
+    "question2": 2,
+    "question3": 2,
+    "question4": 3
+  },
+  {
+    "personalityType": "c",
+    "question1": 0,
+    "question2": 2,
+    "question3": 2,
+    "question4": 1
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 3,
+    "question3": 1,
+    "question4": 0
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 0,
+    "question4": 2
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 1,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 2,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 0,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 3,
+    "question4": 0
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  },
+  {
+    "personalityType": "b",
+    "question1": 1,
+    "question2": 1,
+    "question3": 1,
+    "question4": 1
+  },
+  {
+    "personalityType": "d",
+    "question1": 0,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "d",
+    "question1": 3,
+    "question2": 3,
+    "question3": 3,
+    "question4": 3
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 3,
+    "question4": 0
+  },
+  {
+    "personalityType": "a",
+    "question1": 0,
+    "question2": 0,
+    "question3": 1,
+    "question4": 2
+  },
+  {
+    "personalityType": "c",
+    "question1": 2,
+    "question2": 2,
+    "question3": 2,
+    "question4": 2
+  }
+]
