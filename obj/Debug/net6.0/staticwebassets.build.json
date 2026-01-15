@@ -1,0 +1,2288 @@
+{
+  "Version": 1,
+  "Hash": "J5mkY03fbAmNLd/ghgxcS2FXz51QVQa9NwKauKqvHGA=",
+  "Source": "Prog3_WebApi_Javascript",
+  "BasePath": "_content/Prog3_WebApi_Javascript",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Prog3_WebApi_Javascript\\wwwroot",
+      "Source": "Prog3_WebApi_Javascript",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\chat.html",
+      "SourceId": "Prog3_WebApi_Javascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "RelativePath": "chat#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6suxk8z1zy",
+      "Integrity": "6sEZrbX2DvW+xQOBKxBarR8Ns9yTI2SdNBUGDhvIWtQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\chat.html"
+    },
+    {
+      "Identity": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "SourceId": "Prog3_WebApi_Javascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "RelativePath": "css/bootstrap.rtl.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4sju1bfzaj",
+      "Integrity": "pByP3Tj9GahEDA5kNLMEcEnmpHOW3Uw/JmCVI0NuyR0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\css\\Questionnaire.css",
+      "SourceId": "Prog3_WebApi_Javascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "RelativePath": "css/Questionnaire#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rx9zyyv5hz",
+      "Integrity": "8YhObuH/CGqxIUmhCgEZX+pk5+TbPyDSrf2/mBSGlAA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Questionnaire.css"
+    },
+    {
+      "Identity": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\css\\style.css",
+      "SourceId": "Prog3_WebApi_Javascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dh6n3rlps5",
+      "Integrity": "b8CiwS9WLrKk54MSVTIRLkaM83WKtyokYUFMgAySGAM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\css\\styles.css",
+      "SourceId": "Prog3_WebApi_Javascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "RelativePath": "css/styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dyjx89twm7",
+      "Integrity": "u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\index.html",
+      "SourceId": "Prog3_WebApi_Javascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t604jjg3e6",
+      "Integrity": "C0c6Y3/5RJbDM5RPfJIpIQhaJ4+VeuC0oLsDiygXvwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\bootstrap.bundle.js",
+      "SourceId": "Prog3_WebApi_Javascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "RelativePath": "js/bootstrap.bundle#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z0cyul89ut",
+      "Integrity": "nXxM3vVk1ByhwczQW2ZCRZedoIL4U5PuQKMoprvQKzE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Identity": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "SourceId": "Prog3_WebApi_Javascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "RelativePath": "js/bootstrap.bundle.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2omjt04a4f",
+      "Integrity": "gvZPYrsDwbwYJLD5yeBfcNujPhRoGOY831wwbIzz3t0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\chat.js",
+      "SourceId": "Prog3_WebApi_Javascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "RelativePath": "js/chat#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s5mae4qayj",
+      "Integrity": "sAxd4ExbcsQzGOufNzIrQ113a/jMPU93TA5YTcME8ws=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\chat.js"
+    },
+    {
+      "Identity": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\javascript.js",
+      "SourceId": "Prog3_WebApi_Javascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "RelativePath": "js/javascript#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2ck58vfzpw",
+      "Integrity": "znXnrusNidefdX+uf3M0xKn0kFBR/t8im0RzSBdEgpY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\javascript.js"
+    },
+    {
+      "Identity": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\JSQ.js",
+      "SourceId": "Prog3_WebApi_Javascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "RelativePath": "js/JSQ#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k9int2w58l",
+      "Integrity": "OIGiNAt0eyY+ZZTD3qxNzm2XeYamDV27wLZ6ozu3ecI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\JSQ.js"
+    },
+    {
+      "Identity": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\main.js",
+      "SourceId": "Prog3_WebApi_Javascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "RelativePath": "js/main#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7syv0howvk",
+      "Integrity": "1yX87rvKYPwWTY8JPcRWoGZvtKUQ+Us0VmOwnhmPrnQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\main.js"
+    },
+    {
+      "Identity": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\match-analysis.js",
+      "SourceId": "Prog3_WebApi_Javascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "RelativePath": "js/match-analysis#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uiw48vres8",
+      "Integrity": "ppFkm8JdJOFf30Sw9apB6PiAPRNIo7Z2kU010hbMAq0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\match-analysis.js"
+    },
+    {
+      "Identity": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\personality.js",
+      "SourceId": "Prog3_WebApi_Javascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "RelativePath": "js/personality#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xlmz32q06u",
+      "Integrity": "NSgRLKiECaRXUQelKzgHQsYr2xI++0M3RbnrATv3+XI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\personality.js"
+    },
+    {
+      "Identity": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\resume-preview.js",
+      "SourceId": "Prog3_WebApi_Javascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "RelativePath": "js/resume-preview#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1u114ojys2",
+      "Integrity": "iVPteM7E+3ZspYaBI3SzbHepf5abGwtYoqYGTDX4Y9M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\resume-preview.js"
+    },
+    {
+      "Identity": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\JSON\\personalities_data_updated.json",
+      "SourceId": "Prog3_WebApi_Javascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "RelativePath": "JSON/personalities_data_updated#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "anq16n87nb",
+      "Integrity": "2gBhNUBPCDTab2du4y2Ydxzk/LPypvj1PkH6Xn95buk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\JSON\\personalities_data_updated.json"
+    },
+    {
+      "Identity": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\match-analysis.html",
+      "SourceId": "Prog3_WebApi_Javascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "RelativePath": "match-analysis#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n0z41t5k1k",
+      "Integrity": "Rw8LiGoAFJMhDsl8LWR8o/4b86TNI8pqWDNyXGS1mY0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\match-analysis.html"
+    },
+    {
+      "Identity": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\model\\model_meta.json",
+      "SourceId": "Prog3_WebApi_Javascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "RelativePath": "model/model_meta#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b81f8lzw8o",
+      "Integrity": "BaDJMyp5PXjJ929CAUwoh8ramM6RkUO4O+YqRDtx/1s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\model\\model_meta.json"
+    },
+    {
+      "Identity": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\model\\model.json",
+      "SourceId": "Prog3_WebApi_Javascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "RelativePath": "model/model#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wy6hwnki9o",
+      "Integrity": "eCZEAGNjZrndWV/9D7J+Hr0+IKV/uvaSGRc23mUzh2I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\model\\model.json"
+    },
+    {
+      "Identity": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\model\\model.weights.bin",
+      "SourceId": "Prog3_WebApi_Javascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "RelativePath": "model/model.weights#[.{fingerprint}]?.bin",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "avd0ks7zk3",
+      "Integrity": "Nvq2hG11nEYOhfBWzaS9nIQ9Qg5ctROaTIXbb1I0A/I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\model\\model.weights.bin"
+    },
+    {
+      "Identity": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\personality_assessment.html",
+      "SourceId": "Prog3_WebApi_Javascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "RelativePath": "personality_assessment#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zqflkzmjyk",
+      "Integrity": "+2KAg1EQOsVoPKyiy6iNJ3gQJ4x7gNB1hYI7dCJp7vE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\personality_assessment.html"
+    },
+    {
+      "Identity": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\resume-preview.html",
+      "SourceId": "Prog3_WebApi_Javascript",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\",
+      "BasePath": "_content/Prog3_WebApi_Javascript",
+      "RelativePath": "resume-preview#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "owiblagj1f",
+      "Integrity": "iG7WMsOEM3DnvsB0aHC69d2duAeG1n7sGfSW7M8spDc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resume-preview.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "chat.6suxk8z1zy.html",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\chat.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10295"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6sEZrbX2DvW+xQOBKxBarR8Ns9yTI2SdNBUGDhvIWtQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 Jan 2026 11:51:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6suxk8z1zy"
+        },
+        {
+          "Name": "label",
+          "Value": "chat.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6sEZrbX2DvW+xQOBKxBarR8Ns9yTI2SdNBUGDhvIWtQ="
+        }
+      ]
+    },
+    {
+      "Route": "chat.html",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\chat.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10295"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6sEZrbX2DvW+xQOBKxBarR8Ns9yTI2SdNBUGDhvIWtQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 Jan 2026 11:51:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6sEZrbX2DvW+xQOBKxBarR8Ns9yTI2SdNBUGDhvIWtQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.rtl.min.4sju1bfzaj.css",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pByP3Tj9GahEDA5kNLMEcEnmpHOW3Uw/JmCVI0NuyR0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Sep 2023 14:10:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4sju1bfzaj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.rtl.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pByP3Tj9GahEDA5kNLMEcEnmpHOW3Uw/JmCVI0NuyR0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pByP3Tj9GahEDA5kNLMEcEnmpHOW3Uw/JmCVI0NuyR0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Sep 2023 14:10:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pByP3Tj9GahEDA5kNLMEcEnmpHOW3Uw/JmCVI0NuyR0="
+        }
+      ]
+    },
+    {
+      "Route": "css/Questionnaire.css",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\css\\Questionnaire.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2921"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8YhObuH/CGqxIUmhCgEZX+pk5+TbPyDSrf2/mBSGlAA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Dec 2025 14:06:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8YhObuH/CGqxIUmhCgEZX+pk5+TbPyDSrf2/mBSGlAA="
+        }
+      ]
+    },
+    {
+      "Route": "css/Questionnaire.rx9zyyv5hz.css",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\css\\Questionnaire.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2921"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8YhObuH/CGqxIUmhCgEZX+pk5+TbPyDSrf2/mBSGlAA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Dec 2025 14:06:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rx9zyyv5hz"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Questionnaire.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8YhObuH/CGqxIUmhCgEZX+pk5+TbPyDSrf2/mBSGlAA="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11214"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b8CiwS9WLrKk54MSVTIRLkaM83WKtyokYUFMgAySGAM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 Jan 2026 15:16:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-b8CiwS9WLrKk54MSVTIRLkaM83WKtyokYUFMgAySGAM="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.dh6n3rlps5.css",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11214"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b8CiwS9WLrKk54MSVTIRLkaM83WKtyokYUFMgAySGAM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 Jan 2026 15:16:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dh6n3rlps5"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-b8CiwS9WLrKk54MSVTIRLkaM83WKtyokYUFMgAySGAM="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Nov 2023 07:43:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.dyjx89twm7.css",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Nov 2023 07:43:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dyjx89twm7"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15650"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C0c6Y3/5RJbDM5RPfJIpIQhaJ4+VeuC0oLsDiygXvwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 Jan 2026 19:47:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C0c6Y3/5RJbDM5RPfJIpIQhaJ4+VeuC0oLsDiygXvwg="
+        }
+      ]
+    },
+    {
+      "Route": "index.t604jjg3e6.html",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15650"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C0c6Y3/5RJbDM5RPfJIpIQhaJ4+VeuC0oLsDiygXvwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 Jan 2026 19:47:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t604jjg3e6"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C0c6Y3/5RJbDM5RPfJIpIQhaJ4+VeuC0oLsDiygXvwg="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\bootstrap.bundle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "207731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nXxM3vVk1ByhwczQW2ZCRZedoIL4U5PuQKMoprvQKzE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Dec 2025 14:06:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nXxM3vVk1ByhwczQW2ZCRZedoIL4U5PuQKMoprvQKzE="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.bundle.min.2omjt04a4f.js",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80663"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gvZPYrsDwbwYJLD5yeBfcNujPhRoGOY831wwbIzz3t0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Sep 2023 14:10:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2omjt04a4f"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.bundle.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gvZPYrsDwbwYJLD5yeBfcNujPhRoGOY831wwbIzz3t0="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80663"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gvZPYrsDwbwYJLD5yeBfcNujPhRoGOY831wwbIzz3t0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Sep 2023 14:10:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gvZPYrsDwbwYJLD5yeBfcNujPhRoGOY831wwbIzz3t0="
+        }
+      ]
+    },
+    {
+      "Route": "js/bootstrap.bundle.z0cyul89ut.js",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\bootstrap.bundle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "207731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nXxM3vVk1ByhwczQW2ZCRZedoIL4U5PuQKMoprvQKzE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Dec 2025 14:06:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z0cyul89ut"
+        },
+        {
+          "Name": "label",
+          "Value": "js/bootstrap.bundle.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nXxM3vVk1ByhwczQW2ZCRZedoIL4U5PuQKMoprvQKzE="
+        }
+      ]
+    },
+    {
+      "Route": "js/chat.js",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\chat.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7101"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sAxd4ExbcsQzGOufNzIrQ113a/jMPU93TA5YTcME8ws=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Jan 2026 16:33:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sAxd4ExbcsQzGOufNzIrQ113a/jMPU93TA5YTcME8ws="
+        }
+      ]
+    },
+    {
+      "Route": "js/chat.s5mae4qayj.js",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\chat.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7101"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sAxd4ExbcsQzGOufNzIrQ113a/jMPU93TA5YTcME8ws=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Jan 2026 16:33:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s5mae4qayj"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chat.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sAxd4ExbcsQzGOufNzIrQ113a/jMPU93TA5YTcME8ws="
+        }
+      ]
+    },
+    {
+      "Route": "js/javascript.2ck58vfzpw.js",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\javascript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3467"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"znXnrusNidefdX+uf3M0xKn0kFBR/t8im0RzSBdEgpY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 Jan 2026 13:36:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2ck58vfzpw"
+        },
+        {
+          "Name": "label",
+          "Value": "js/javascript.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-znXnrusNidefdX+uf3M0xKn0kFBR/t8im0RzSBdEgpY="
+        }
+      ]
+    },
+    {
+      "Route": "js/javascript.js",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\javascript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3467"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"znXnrusNidefdX+uf3M0xKn0kFBR/t8im0RzSBdEgpY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 Jan 2026 13:36:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-znXnrusNidefdX+uf3M0xKn0kFBR/t8im0RzSBdEgpY="
+        }
+      ]
+    },
+    {
+      "Route": "js/JSQ.js",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\JSQ.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OIGiNAt0eyY+ZZTD3qxNzm2XeYamDV27wLZ6ozu3ecI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 Jan 2026 17:06:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OIGiNAt0eyY+ZZTD3qxNzm2XeYamDV27wLZ6ozu3ecI="
+        }
+      ]
+    },
+    {
+      "Route": "js/JSQ.k9int2w58l.js",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\JSQ.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OIGiNAt0eyY+ZZTD3qxNzm2XeYamDV27wLZ6ozu3ecI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 Jan 2026 17:06:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k9int2w58l"
+        },
+        {
+          "Name": "label",
+          "Value": "js/JSQ.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OIGiNAt0eyY+ZZTD3qxNzm2XeYamDV27wLZ6ozu3ecI="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.7syv0howvk.js",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2504"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1yX87rvKYPwWTY8JPcRWoGZvtKUQ+Us0VmOwnhmPrnQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 Jan 2026 11:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7syv0howvk"
+        },
+        {
+          "Name": "label",
+          "Value": "js/main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1yX87rvKYPwWTY8JPcRWoGZvtKUQ+Us0VmOwnhmPrnQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.js",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2504"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1yX87rvKYPwWTY8JPcRWoGZvtKUQ+Us0VmOwnhmPrnQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 Jan 2026 11:47:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1yX87rvKYPwWTY8JPcRWoGZvtKUQ+Us0VmOwnhmPrnQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/match-analysis.js",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\match-analysis.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3499"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ppFkm8JdJOFf30Sw9apB6PiAPRNIo7Z2kU010hbMAq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Jan 2026 16:44:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ppFkm8JdJOFf30Sw9apB6PiAPRNIo7Z2kU010hbMAq0="
+        }
+      ]
+    },
+    {
+      "Route": "js/match-analysis.uiw48vres8.js",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\match-analysis.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3499"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ppFkm8JdJOFf30Sw9apB6PiAPRNIo7Z2kU010hbMAq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Jan 2026 16:44:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uiw48vres8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/match-analysis.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ppFkm8JdJOFf30Sw9apB6PiAPRNIo7Z2kU010hbMAq0="
+        }
+      ]
+    },
+    {
+      "Route": "js/personality.js",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\personality.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4933"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NSgRLKiECaRXUQelKzgHQsYr2xI++0M3RbnrATv3+XI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 Jan 2026 12:42:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NSgRLKiECaRXUQelKzgHQsYr2xI++0M3RbnrATv3+XI="
+        }
+      ]
+    },
+    {
+      "Route": "js/personality.xlmz32q06u.js",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\personality.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4933"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NSgRLKiECaRXUQelKzgHQsYr2xI++0M3RbnrATv3+XI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 Jan 2026 12:42:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xlmz32q06u"
+        },
+        {
+          "Name": "label",
+          "Value": "js/personality.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NSgRLKiECaRXUQelKzgHQsYr2xI++0M3RbnrATv3+XI="
+        }
+      ]
+    },
+    {
+      "Route": "js/resume-preview.1u114ojys2.js",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\resume-preview.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4706"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iVPteM7E+3ZspYaBI3SzbHepf5abGwtYoqYGTDX4Y9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Jan 2026 18:14:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1u114ojys2"
+        },
+        {
+          "Name": "label",
+          "Value": "js/resume-preview.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iVPteM7E+3ZspYaBI3SzbHepf5abGwtYoqYGTDX4Y9M="
+        }
+      ]
+    },
+    {
+      "Route": "js/resume-preview.js",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\resume-preview.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4706"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iVPteM7E+3ZspYaBI3SzbHepf5abGwtYoqYGTDX4Y9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Jan 2026 18:14:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iVPteM7E+3ZspYaBI3SzbHepf5abGwtYoqYGTDX4Y9M="
+        }
+      ]
+    },
+    {
+      "Route": "JSON/personalities_data_updated.anq16n87nb.json",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\JSON\\personalities_data_updated.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2gBhNUBPCDTab2du4y2Ydxzk/LPypvj1PkH6Xn95buk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 Jan 2026 10:45:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "anq16n87nb"
+        },
+        {
+          "Name": "label",
+          "Value": "JSON/personalities_data_updated.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2gBhNUBPCDTab2du4y2Ydxzk/LPypvj1PkH6Xn95buk="
+        }
+      ]
+    },
+    {
+      "Route": "JSON/personalities_data_updated.json",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\JSON\\personalities_data_updated.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2gBhNUBPCDTab2du4y2Ydxzk/LPypvj1PkH6Xn95buk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 Jan 2026 10:45:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2gBhNUBPCDTab2du4y2Ydxzk/LPypvj1PkH6Xn95buk="
+        }
+      ]
+    },
+    {
+      "Route": "match-analysis.html",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\match-analysis.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13267"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rw8LiGoAFJMhDsl8LWR8o/4b86TNI8pqWDNyXGS1mY0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Jan 2026 16:44:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rw8LiGoAFJMhDsl8LWR8o/4b86TNI8pqWDNyXGS1mY0="
+        }
+      ]
+    },
+    {
+      "Route": "match-analysis.n0z41t5k1k.html",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\match-analysis.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13267"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rw8LiGoAFJMhDsl8LWR8o/4b86TNI8pqWDNyXGS1mY0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Jan 2026 16:44:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n0z41t5k1k"
+        },
+        {
+          "Name": "label",
+          "Value": "match-analysis.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rw8LiGoAFJMhDsl8LWR8o/4b86TNI8pqWDNyXGS1mY0="
+        }
+      ]
+    },
+    {
+      "Route": "model/model_meta.b81f8lzw8o.json",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\model\\model_meta.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BaDJMyp5PXjJ929CAUwoh8ramM6RkUO4O+YqRDtx/1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 Jan 2026 15:43:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b81f8lzw8o"
+        },
+        {
+          "Name": "label",
+          "Value": "model/model_meta.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BaDJMyp5PXjJ929CAUwoh8ramM6RkUO4O+YqRDtx/1s="
+        }
+      ]
+    },
+    {
+      "Route": "model/model_meta.json",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\model\\model_meta.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BaDJMyp5PXjJ929CAUwoh8ramM6RkUO4O+YqRDtx/1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 Jan 2026 15:43:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BaDJMyp5PXjJ929CAUwoh8ramM6RkUO4O+YqRDtx/1s="
+        }
+      ]
+    },
+    {
+      "Route": "model/model.json",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\model\\model.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1337"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eCZEAGNjZrndWV/9D7J+Hr0+IKV/uvaSGRc23mUzh2I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 Jan 2026 15:43:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eCZEAGNjZrndWV/9D7J+Hr0+IKV/uvaSGRc23mUzh2I="
+        }
+      ]
+    },
+    {
+      "Route": "model/model.weights.avd0ks7zk3.bin",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\model\\model.weights.bin",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nvq2hG11nEYOhfBWzaS9nIQ9Qg5ctROaTIXbb1I0A/I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 Jan 2026 15:43:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "avd0ks7zk3"
+        },
+        {
+          "Name": "label",
+          "Value": "model/model.weights.bin"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nvq2hG11nEYOhfBWzaS9nIQ9Qg5ctROaTIXbb1I0A/I="
+        }
+      ]
+    },
+    {
+      "Route": "model/model.weights.bin",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\model\\model.weights.bin",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nvq2hG11nEYOhfBWzaS9nIQ9Qg5ctROaTIXbb1I0A/I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 Jan 2026 15:43:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nvq2hG11nEYOhfBWzaS9nIQ9Qg5ctROaTIXbb1I0A/I="
+        }
+      ]
+    },
+    {
+      "Route": "model/model.wy6hwnki9o.json",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\model\\model.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1337"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eCZEAGNjZrndWV/9D7J+Hr0+IKV/uvaSGRc23mUzh2I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 Jan 2026 15:43:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wy6hwnki9o"
+        },
+        {
+          "Name": "label",
+          "Value": "model/model.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eCZEAGNjZrndWV/9D7J+Hr0+IKV/uvaSGRc23mUzh2I="
+        }
+      ]
+    },
+    {
+      "Route": "personality_assessment.html",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\personality_assessment.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30690"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+2KAg1EQOsVoPKyiy6iNJ3gQJ4x7gNB1hYI7dCJp7vE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 Jan 2026 12:49:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+2KAg1EQOsVoPKyiy6iNJ3gQJ4x7gNB1hYI7dCJp7vE="
+        }
+      ]
+    },
+    {
+      "Route": "personality_assessment.zqflkzmjyk.html",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\personality_assessment.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30690"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+2KAg1EQOsVoPKyiy6iNJ3gQJ4x7gNB1hYI7dCJp7vE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 Jan 2026 12:49:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zqflkzmjyk"
+        },
+        {
+          "Name": "label",
+          "Value": "personality_assessment.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+2KAg1EQOsVoPKyiy6iNJ3gQJ4x7gNB1hYI7dCJp7vE="
+        }
+      ]
+    },
+    {
+      "Route": "resume-preview.html",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\resume-preview.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iG7WMsOEM3DnvsB0aHC69d2duAeG1n7sGfSW7M8spDc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Jan 2026 17:15:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iG7WMsOEM3DnvsB0aHC69d2duAeG1n7sGfSW7M8spDc="
+        }
+      ]
+    },
+    {
+      "Route": "resume-preview.owiblagj1f.html",
+      "AssetFile": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\resume-preview.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iG7WMsOEM3DnvsB0aHC69d2duAeG1n7sGfSW7M8spDc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Jan 2026 17:15:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "owiblagj1f"
+        },
+        {
+          "Name": "label",
+          "Value": "resume-preview.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iG7WMsOEM3DnvsB0aHC69d2duAeG1n7sGfSW7M8spDc="
+        }
+      ]
+    }
+  ]
+}

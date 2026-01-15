@@ -1,0 +1,113 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\JSON\\personalities_data_updated.json",
+      "PackagePath": "staticwebassets\\JSON\\personalities_data_updated.json"
+    },
+    {
+      "Id": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\chat.html",
+      "PackagePath": "staticwebassets\\chat.html"
+    },
+    {
+      "Id": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\css\\Questionnaire.css",
+      "PackagePath": "staticwebassets\\css\\Questionnaire.css"
+    },
+    {
+      "Id": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\JSQ.js",
+      "PackagePath": "staticwebassets\\js\\JSQ.js"
+    },
+    {
+      "Id": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
+    },
+    {
+      "Id": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\javascript.js",
+      "PackagePath": "staticwebassets\\js\\javascript.js"
+    },
+    {
+      "Id": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\match-analysis.js",
+      "PackagePath": "staticwebassets\\js\\match-analysis.js"
+    },
+    {
+      "Id": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\personality.js",
+      "PackagePath": "staticwebassets\\js\\personality.js"
+    },
+    {
+      "Id": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\js\\resume-preview.js",
+      "PackagePath": "staticwebassets\\js\\resume-preview.js"
+    },
+    {
+      "Id": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\match-analysis.html",
+      "PackagePath": "staticwebassets\\match-analysis.html"
+    },
+    {
+      "Id": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\model\\model.json",
+      "PackagePath": "staticwebassets\\model\\model.json"
+    },
+    {
+      "Id": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\model\\model.weights.bin",
+      "PackagePath": "staticwebassets\\model\\model.weights.bin"
+    },
+    {
+      "Id": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\model\\model_meta.json",
+      "PackagePath": "staticwebassets\\model\\model_meta.json"
+    },
+    {
+      "Id": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\personality_assessment.html",
+      "PackagePath": "staticwebassets\\personality_assessment.html"
+    },
+    {
+      "Id": "C:\\Users\\roman\\Desktop\\HIT\\תואר שני\\שנה א\\סמסטר א\\אפיון פתרונות בינה\\Resumate\\Resumate_OpenAI\\Prog3_WebApi_Javascript_Template (1)\\wwwroot\\resume-preview.html",
+      "PackagePath": "staticwebassets\\resume-preview.html"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Prog3_WebApi_Javascript.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Prog3_WebApi_Javascript.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Prog3_WebApi_Javascript.props",
+      "PackagePath": "build\\Prog3_WebApi_Javascript.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Prog3_WebApi_Javascript.props",
+      "PackagePath": "buildMultiTargeting\\Prog3_WebApi_Javascript.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Prog3_WebApi_Javascript.props",
+      "PackagePath": "buildTransitive\\Prog3_WebApi_Javascript.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
